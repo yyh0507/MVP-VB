@@ -273,52 +273,34 @@ fit_MVP_VB_core <- function(
     list(E_mat = E_mat, S_mat = S_mat)
   }
 
-  compute_delta_one_k_active <- function(k, Wcur, M_list, V_C, active_idx,
-                                         Tau_list, XtX_list, XtY_list,
-                                         m, q, other_r_list) {
-    delta_mat <- matrix(-Inf, nrow = m, ncol = q)
-    c_k <- length(active_idx)
-    if (c_k == 0L) return(delta_mat)
+  compute_delta_coordinate_active <- function(
+      pos_i, r, W_C, M_C, V_C, XtX_C, XtY_C, Tau_k,
+      other_r_list) {
+    c_k <- nrow(W_C)
+    rows_r <- ((r - 1L) * c_k + 1L):(r * c_k)
+    row_ir <- rows_r[pos_i]
+    Mr <- M_C[, r]
 
-    XtX_C <- XtX_list[[k]][active_idx, active_idx, drop = FALSE]
-    XtY_C <- XtY_list[[k]][active_idx, , drop = FALSE]
-    M_C <- M_list[[k]][active_idx, , drop = FALSE]
-    Tau_k <- Tau_list[[k]]
-    W_C <- Wcur[[k]][active_idx, , drop = FALSE]
-    s_diag_C <- diag(XtX_C)
-    delta_C <- matrix(0, nrow = c_k, ncol = q)
+    delta1 <- -0.5 * Tau_k[r, r] * XtX_C[pos_i, pos_i] *
+      (M_C[pos_i, r]^2 + V_C[row_ir, row_ir])
+    delta2 <- M_C[pos_i, r] * as.numeric(XtY_C[pos_i, ] %*% Tau_k[, r])
 
-    for (r in seq_len(q)) {
-      rows_r <- ((r - 1L) * c_k + 1L):(r * c_k)
-      Mr <- M_C[, r]
-      Wr <- W_C[, r]
-      Vrr <- V_C[rows_r, rows_r, drop = FALSE]
+    t3_row <- M_C[pos_i, r] * Mr + V_C[row_ir, rows_r]
+    t3_row[pos_i] <- 0
+    delta3 <- -Tau_k[r, r] * sum(
+      XtX_C[pos_i, ] * t3_row * W_C[, r]
+    )
 
-      Delta1 <- -0.5 * Tau_k[r, r] * s_diag_C * (Mr^2 + diag(Vrr))
-      Delta2 <- Mr * as.numeric(XtY_C %*% Tau_k[, r])
-
-      T3 <- outer(Mr, Mr) + Vrr
-      diag(T3) <- 0
-      Delta3 <- -Tau_k[r, r] *
-        rowSums(XtX_C * sweep(T3, 2, Wr, `*`))
-
-      Delta4 <- numeric(c_k)
-      for (s in other_r_list[[r]]) {
-        rows_s <- ((s - 1L) * c_k + 1L):(s * c_k)
-        Ms <- M_C[, s]
-        Ws <- W_C[, s]
-        Vrs <- V_C[rows_r, rows_s, drop = FALSE]
-        T4 <- outer(Mr, Ms) + Vrs
-
-        Delta4 <- Delta4 -
-          Tau_k[r, s] * rowSums(XtX_C * sweep(T4, 2, Ws, `*`))
-      }
-
-      delta_C[, r] <- Delta1 + Delta2 + Delta3 + Delta4
+    delta4 <- 0
+    for (s in other_r_list[[r]]) {
+      rows_s <- ((s - 1L) * c_k + 1L):(s * c_k)
+      t4_row <- M_C[pos_i, r] * M_C[, s] + V_C[row_ir, rows_s]
+      delta4 <- delta4 - Tau_k[r, s] * sum(
+        XtX_C[pos_i, ] * t4_row * W_C[, s]
+      )
     }
 
-    delta_mat[active_idx, ] <- delta_C
-    delta_mat
+    delta1 + delta2 + delta3 + delta4
   }
 
   compute_marginal_stats <- function(Xk, Yk) {
@@ -780,8 +762,10 @@ fit_MVP_VB_core <- function(
 
   Tau_list <- vector("list", K)
   M_list <- vector("list", K)
+  Tau0 <- nu0 * chol2inv(chol(Psi0))
   for (k in seq_len(K)) {
-    Tau_list[[k]] <- diag(q)
+    ## E_q[Sigma_k^{-1}] under the initial IW(nu0, Psi0) factor.
+    Tau_list[[k]] <- Tau0
     M_list[[k]] <- matrix(0, m, q)
   }
 
@@ -1006,23 +990,10 @@ fit_MVP_VB_core <- function(
         nu_star <- nu0 + n_k[k] + m
         Tau_list[[k]] <- nu_star * chol2inv(chol_Psi)
 
-        delta_gate_array[k, , ] <- compute_delta_one_k_active(
-          k = k,
-          Wcur = W_list,
-          M_list = M_list,
-          V_C = V_C,
-          active_idx = idx,
-          Tau_list = Tau_list,
-          XtX_list = XtX_list,
-          XtY_list = XtY_list,
-          m = m,
-          q = q,
-          other_r_list = other_r_list
-        )
       }
 
       ## ----------------------------------------------------------
-      ## 5.3 Fixed-group Beta factors and group-specific lambda
+      ## 5.3 Initialize fixed-group Beta-factor records
       ## ----------------------------------------------------------
       W_old_array <- array(0, dim = c(K, m, q))
       for (k in seq_len(K)) W_old_array[k, , ] <- W_list[[k]]
@@ -1046,8 +1017,6 @@ fit_MVP_VB_core <- function(
         b2_prior <- unname(prior2["b"])
         a2_old <- a2_prior + u2_old
         b2_old <- b2_prior + J2 - u2_old
-        lambda2 <- digamma(a2_old) - digamma(b2_old)
-        lambda_opt2_group_array[members, i, r] <- lambda2
         beta_factor_option2[[group_name]] <- list(
           J = J2, u_old = u2_old, a_old = a2_old, b_old = b2_old,
           prior_a = a2_prior, prior_b = b2_prior,
@@ -1066,8 +1035,6 @@ fit_MVP_VB_core <- function(
         b3_prior <- unname(prior3["b"])
         a3_old <- a3_prior + u3_old
         b3_old <- b3_prior + J3 - u3_old
-        lambda3 <- digamma(a3_old) - digamma(b3_old)
-        lambda_opt3_group_array[idx3] <- lambda3
         beta_factor_option3[[group_name]] <- list(
           J = J3, u_old = u3_old, a_old = a3_old, b_old = b3_old,
           prior_a = a3_prior, prior_b = b3_prior,
@@ -1076,22 +1043,88 @@ fit_MVP_VB_core <- function(
       }
 
       ## ----------------------------------------------------------
-      ## 5.4 Element-wise W update
+      ## 5.4 Sequential coordinate update in k, then i, then r order
       ## ----------------------------------------------------------
-      W_temp <- lapply(seq_len(K), function(k) matrix(0, m, q))
+      ## M, V and Tau remain fixed during this block.  Every delta, shared
+      ## Beta factor and lambda is refreshed from the latest W_temp, so an
+      ## updated coordinate is available to all later coordinates in the
+      ## same VB iteration.
+      W_temp <- lapply(W_list, function(W) W)
 
       for (k in seq_len(K)) {
-        for (i in active_idx_list[[k]]) {
+        active_idx <- active_idx_list[[k]]
+        XtX_C <- XtX_list[[k]][active_idx, active_idx, drop = FALSE]
+        XtY_C <- XtY_list[[k]][active_idx, , drop = FALSE]
+        M_C <- M_list[[k]][active_idx, , drop = FALSE]
+        V_C <- V_active_list[[k]]
+        Tau_k <- Tau_list[[k]]
+        W_C <- W_temp[[k]][active_idx, , drop = FALSE]
+
+        for (pos_i in seq_along(active_idx)) {
+          i <- active_idx[pos_i]
           for (r in seq_len(q)) {
-            delta_ir <- delta_gate_array[k, i, r]
+            delta_ir <- compute_delta_coordinate_active(
+              pos_i = pos_i,
+              r = r,
+              W_C = W_C,
+              M_C = M_C,
+              V_C = V_C,
+              XtX_C = XtX_C,
+              XtY_C = XtY_C,
+              Tau_k = Tau_k,
+              other_r_list = other_r_list
+            )
+            delta_gate_array[k, i, r] <- delta_ir
             option_kir <- option_array[k, i, r]
 
             if (option_kir == 1L) {
               lambda_ir <- lambda_opt1
             } else if (option_kir == 2L) {
-              lambda_ir <- lambda_opt2_group_array[k, i, r]
+              group_name <- paste(i, r, sep = ":")
+              group <- option2_groups[[group_name]]
+              if (is.null(group) || !k %in% group$populations) {
+                stop("Missing Option 2 group for coordinate ", k, ":", i, ":", r, ".")
+              }
+              members <- group$populations
+              u_current <- sum(vapply(
+                members,
+                function(member_k) W_temp[[member_k]][i, r],
+                numeric(1)
+              ))
+              prior <- group_prior_ab(members)
+              a_current <- unname(prior["a"]) + u_current
+              b_current <- unname(prior["b"]) + length(members) - u_current
+              lambda_ir <- digamma(a_current) - digamma(b_current)
+              lambda_opt2_group_array[k, i, r] <- lambda_ir
+              beta_factor_option2[[group_name]]$u_last_coordinate <- u_current
+              beta_factor_option2[[group_name]]$a_last_coordinate <- a_current
+              beta_factor_option2[[group_name]]$b_last_coordinate <- b_current
             } else if (option_kir == 3L) {
-              lambda_ir <- lambda_opt3_group_array[k, i, r]
+              group_name <- as.character(i)
+              group <- option3_groups[[group_name]]
+              if (is.null(group)) {
+                stop("Missing Option 3 group for coordinate ", k, ":", i, ":", r, ".")
+              }
+              pairs <- group$pairs
+              pair_match <- pairs[, "population"] == k & pairs[, "trait"] == r
+              if (!any(pair_match)) {
+                stop("Coordinate is absent from its Option 3 group: ", k, ":", i, ":", r, ".")
+              }
+              u_current <- sum(vapply(
+                seq_len(nrow(pairs)),
+                function(j) {
+                  W_temp[[pairs[j, "population"]]][i, pairs[j, "trait"]]
+                },
+                numeric(1)
+              ))
+              prior <- group_prior_ab(pairs[, "population"])
+              a_current <- unname(prior["a"]) + u_current
+              b_current <- unname(prior["b"]) + nrow(pairs) - u_current
+              lambda_ir <- digamma(a_current) - digamma(b_current)
+              lambda_opt3_group_array[k, i, r] <- lambda_ir
+              beta_factor_option3[[group_name]]$u_last_coordinate <- u_current
+              beta_factor_option3[[group_name]]$a_last_coordinate <- a_current
+              beta_factor_option3[[group_name]]$b_last_coordinate <- b_current
             } else {
               stop("Unknown option_kir.")
             }
@@ -1100,6 +1133,7 @@ fit_MVP_VB_core <- function(
             lambda_update_array[k, i, r] <- lambda_ir
             W_after_update_array[k, i, r] <- W_new
             W_temp[[k]][i, r] <- W_new
+            W_C[pos_i, r] <- W_new
           }
         }
       }
