@@ -463,7 +463,56 @@ eval_pair_selection <- function(selected, truth, score = NULL,
 inspect_pair_selection_errors <- function(selected, truth_B,
                                           population = 1,
                                           max_print = Inf) {
-  truth <- truth_B != 0ã­-¢G§²ÚîÆ­yÒun_mvsusie_on_common_data <- function(common_data_file,
+  truth <- truth_B != 0
+  metric <- eval_pair_selection(selected = selected, truth = truth)
+
+  cat(sprintf(
+    "\n--- Population %d author-style CS SNP-trait error inspection ---\n",
+    population
+  ))
+  cat(sprintf(
+    "TP=%d, FP=%d, FN=%d, TN=%d\n",
+    metric$TP, metric$FP, metric$FN, metric$TN
+  ))
+  cat(sprintf(
+    "Precision=%.3f, Recall=%.3f, Specificity=%.3f, Youden=%.3f\n",
+    metric$Precision, metric$Recall, metric$Specificity, metric$Youden
+  ))
+
+  err <- which(selected != truth, arr.ind = TRUE)
+  if (nrow(err) == 0L) {
+    cat("No classification errors under the author-style CS rule.\n")
+    return(invisible(metric))
+  }
+
+  n_show <- min(nrow(err), max_print)
+  for (ii in seq_len(n_show)) {
+    j <- err[ii, 1]
+    r <- err[ii, 2]
+    cat(sprintf(
+      "Position (SNP=%d, Pheno=%d): B_true=%.4f, Predicted=%d, True=%d\n",
+      j, r, truth_B[j, r], as.integer(selected[j, r]),
+      as.integer(truth[j, r])
+    ))
+  }
+  if (n_show < nrow(err)) {
+    cat(sprintf("... %d more errors not printed.\n", nrow(err) - n_show))
+  }
+  invisible(metric)
+}
+
+
+## ============================================================
+## Main function: run mvSuSiE on one common_data rds
+##
+## Fit stage:
+##   only uses X_list and Y_list
+##
+## Evaluation stage:
+##   uses B_true_list
+## ============================================================
+
+run_mvsusie_on_common_data <- function(common_data_file,
                                        out_file = NULL,
                                        csv_file = NULL,
                                        threshold = 0.01,

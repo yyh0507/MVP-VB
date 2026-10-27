@@ -501,4 +501,1857 @@ patch_mgflashfm_duplicate_canonical_models <- function() {
       )
       out$SM[[i]] <- PP2snpmod_function(ppdf)
       out$mbeta[[i]] <- mbeta[!duplicated(mbeta_names)]
-      repaired_traits <- c(repaired_trai×mzÖÚ$z{-®éÜj×7&÷72×÷VÆF–öâ6÷&R6†V6·ö–çBåÆâ"¢Ð ¢Öv×D52ÂÒ÷7G&ö6W75öÖvfÆ6†fÕö6÷&R€¢77FÒ77FÀ¢fÆ6†fÒæ÷WBÒfÆ6†fÒæ÷WBÀ¢–çWG2Ò–çWG0¢ ¢Æ—7B€¢Öv×D52ÒÖv×D52À¢6†V6·ö–çEöF—"Ò6†V6·ö–çEöF—"À¢¦ÕöF—"Ò¦ÕöF—"À¢6WGF–æw2Ò6WGF–æw0¢§Ð  ¦7&VF–&ÆU÷6WE÷—'2ÂÒgVæ7F–öâ†Öv×D52Â–çWG2Â6öÖÖöåöFF’°¢&÷w2ÂÒÆ—7B‚¢÷WEö’ÂÒÀ ¢f÷"‡"–â6WöÆöær†–çWG2GG&—EöæÖW2’’°¢G&—BÂÒ–çWG2GG&—EöæÖW5µ·%ÕÐ¢72ÂÒÖv×D52D577VÖÖ'•µ·G&—EÕÐ¢–b†—2æçVÆÂ†72’’72ÂÒÖv×D52D577VÖÖ'•µ·%ÕÐ¢–b‚—2æFFæg&ÖR†72’ÇÂç&÷r†72’ÓÒÂ’æW‡@ ¢–G2ÂÒ&÷væÖW2†72¢6çö–æFW‚ÂÒ&W6öÇfUöÖvfÆ6†fÕ÷6çö–G2€¢–G2À¢–çWG2À¢7FS‚&7&VF–&ÆR×6WB—'2f÷""ÂG&—B¢ ¢öæRÂÒFFæg&ÖR€¢4åÒ6çö–æFW‚À¢4åö¶W’Ò–çWG2G6çöÖE4åö¶W•·6çö–æFW…ÒÀ¢G&—Eö–æFW‚Ò"À¢G&—BÒG&—BÀ¢ÖtÕÒ2æçVÖW&–2†72FÖtÕ’À¢Öe÷ööÆVBÒ2æçVÖW&–2†72FÖe÷ööÆVB’À¢&÷öw&÷W2Ò2æçVÖW&–2†72G&÷öw&÷W2’À¢w&÷W2Ò2æ6†&7FW"†72Fw&÷W2’À¢–åô53“’ÒE%TRÀ¢—5÷G'VUö–å÷÷VÆF–öãÒ–çWG2GG'WF…öÖ6·5µ³ÅÕÕ¶6&–æB‡6çö–æFW‚Â"•ÒÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢ ¢22&6·v&BÖ6ö×F–&ÆRæÖR&WF–æVBf÷"öÆBF÷vç7G&VÒ6öFRà¢öæRF—5÷G'VU÷6†&VE÷—"ÂÒöæRF—5÷G'VUö–å÷÷VÆF–öã ¢f÷"†²–â6WöÆVâ†6öÖÖöåöFFD²’’°¢öæUµ·7FS‚$%÷G'VUôw&÷W"Â²•ÕÒÂÐ¢6öÖÖöåöFFD%÷G'VUöÆ—7Eµ¶µÕÕ¶6&–æB‡6çö–æFW‚Â"•Ð¢öæUµ·7FS‚&—5÷G'VUôw&÷W"Â²•ÕÒÂÐ¢–çWG2GG'WF…öÖ6·5µ¶µÕÕ¶6&–æB‡6çö–æFW‚Â"•Ð¢Ð ¢&÷w5µ¶÷WEö•ÕÒÂÒöæP¢÷WEö’ÂÒ÷WEö’²À¢Ð ¢–b†ÆVæwF‚‡&÷w2’ÓÒÂ’°¢÷WBÂÒFFæg&ÖR€¢4åÒ–çFVvW"‚’À¢4åö¶W’Ò6†&7FW"‚’À¢G&—Eö–æFW‚Ò–çFVvW"‚’À¢G&—BÒ6†&7FW"‚’À¢ÖtÕÒçVÖW&–2‚’À¢Öe÷ööÆVBÒçVÖW&–2‚’À¢&÷öw&÷W2ÒçVÖW&–2‚’À¢w&÷W2Ò6†&7FW"‚’À¢–åô53“’ÒÆöv–6Â‚’À¢—5÷G'VUö–å÷÷VÆF–öãÒÆöv–6Â‚’À¢—5÷G'VU÷6†&VE÷—"ÒÆöv–6Â‚’À¢7G&–æw44f7F÷'2ÒdÅ4P¢¢&WGW&â†÷WB¢Ð ¢Fòæ6ÆÂ‡&&–æBÂ&÷w2§Ð  ¦W‡G&7EöÖv×÷6VÆV7F–öâÂÒgVæ7F–öâ€¢Öv×D52À¢–çWG2À¢6öÖÖöåöFFÀ¢F‡&W6†öÆBÒã“ ¢’° ¢ÒÂÒ2æ–çFVvW"†6öÖÖöåöFFFÒ¢ÂÒ2æ–çFVvW"†6öÖÖöåöFFG ¢ÖtÕÂÒÖG&—‚€¢À¢ç&÷rÒÒÀ¢æ6öÂÒÀ¢F–ÖæÖW2ÒÆ—7B†–çWG2G6çöÖFÖvfÆ6†fÕ÷'4”BÂ–çWG2GG&—EöæÖW2¢ ¢FWF–Ç2ÂÒÖv×D52D56FWF–ÂFFWF–Ç0¢–b‚—2æÆ—7B†FWF–Ç2’’°¢7F÷‚$ÔvfÆ6†fÒ÷WGWBFöW2æ÷B6öçF–â56FWF–ÂFFWF–Ç2â"¢Ð¢–b†ÆVæwF‚†FWF–Ç2’Ò’°¢7F÷‚$ÔvfÆ6†fÒ56FWF–ÂFFWF–Ç2FöW2æ÷B6öçF–âG&—G2â"¢Ð ¢f÷"‡"–â6WöÆVâ‡’’° ¢G&—BÂÒ–çWG2GG&—EöæÖW5µ·%ÕÐ¢FWF–ÂÂÒFWF–Ç5µ·G&—EÕÐ¢–b†—2æçVÆÂ†FWF–Â’’FWF–ÂÂÒFWF–Ç5µ·%ÕÐ ¢22–bF†R6÷&RÖWF†öB&WGW&ç2æòÖtÕö&¦V7Bf÷"G&—BÂ&W6W'fP¢22F†R÷&–v–æÂÆÂ×¦W&ò&÷rö6öÇVÖâ6öçG&–'WF–öââæöâÖf–æ—FRçVÖW&–0¢22ÖtÕfÇVW2&R7F–ÆÂG&VFVB2âW'&÷"&VÆ÷rà¢–b†—2æçVÆÂ†FWF–Â’ÇÂ—2æçVÆÂ†FWF–ÂFÖtÕ’’æW‡@ ¢fÇVW2ÂÒ2æçVÖW&–2†FWF–ÂFÖtÕ¢–G2ÂÒæÖW2†FWF–ÂFÖtÕ ¢–b†—2æçVÆÂ†–G2’ÇÂÆVæwF‚†–G2’ÒÆVæwF‚‡fÇVW2’’°¢7F÷‚$ÔvfÆ6†fÒÖtÕfÇVW2†fRæòfÆ–B4åæÖW2f÷""ÂG&—BÂ"â"¢Ð¢22çVÖW&–6Â&÷VæF'’FöÆW&æ6RöæÇ’âfÇVW2÷WG6–FR³ÂÒÖW&VÇ’'¢22fÆöF–ær×ö–çB&÷VæF–ær&R&ö¦V7FVB&6²FòF†R&ö&&–Æ—G’&ævRà¢Öv×÷FöÂÂÒ¢äÖ6†–æRFF÷V&ÆRæW0 ¢–b†ç’‚—2æf–æ—FR‡fÇVW2’’’°¢7F÷‚$ÔvfÆ6†fÒ&WGW&æVBæöâÖf–æ—FRÖtÕfÇVW2f÷""ÂG&—BÂ"â"¢Ð ¢Æ&vUö&BÂÒfÇVW2ÂÖÖv×÷FöÂÂfÇVW2â²Öv×÷FöÀ¢–b†ç’†Æ&vUö&B’’°¢7F÷€¢$ÔvfÆ6†fÒ&WGW&æVBÖFW&–ÆÇ’÷WBÖöb×&ævRÖtÕfÇVW2f÷""À¢G&—BÀ¢#¢&ævRÒ²"À¢f÷&ÖB†Ö–â‡fÇVW2’ÂF–v—G2Òr’À¢"Â"À¢f÷&ÖB†Ö‚‡fÇVW2’ÂF–v—G2Òr’À¢%Òâ ¢¢Ð ¢fÇVW2ÂÒÖ–âƒÂÖ‚ƒÂfÇVW2’ ¢22ÔvfÆ6†fÒ6âVÖ—B¦W&ò×&ö&&–Æ—G’VçG'’v†÷6RæÖR—2â7GVÀ¢22äö6†&7FW%ò6VçF–æVÂâ—B—2æ÷Bâ4åæB6ææ÷BffV7BF†P¢22ÖtÕâF‡&W6†öÆB6VÆV7F–öââG&÷öæÇ’¦W&ò×fÇVVBÖ—76–ærÖæÖP¢226VçF–æVÇ3²Ö—76–æræÖR6''––æræöç¦W&òÖ72&VÖ–ç2âW'&÷"à¢Ö—76–æuö–BÂÒ—2ææ†–G2’Âç¦6†"‡G&–×w2†–G2’¢–b†ç’†Ö—76–æuö–BbfÇVW2âÖv×÷FöÂ’’°¢7F÷€¢$ÔvfÆ6†fÒ&WGW&æVBÖ—76–ær4å”Bv—F‚æöç¦W&òÖtÕf÷""À¢G&—BÀ¢"â ¢¢Ð¢–b†ç’†Ö—76–æuö–B’’°¢fÇVW2ÂÒfÇVW5²Ö—76–æuö–EÐ¢–G2ÂÒ–G5²Ö—76–æuö–EÐ¢Ð¢–b†ÆVæwF‚‡fÇVW2’ÓÒÂ’æW‡@ ¢6çö–æFW‚ÂÒ&W6öÇfUöÖvfÆ6†fÕ÷6çö–G2€¢–G2À¢–çWG2À¢7FS‚&ÖtÕf÷""ÂG&—B¢ ¢–b†ç”GWÆ–6FVB‡6çö–æFW‚’’°¢fÇVW2ÂÒfÇ’€¢7Æ—B‡fÇVW2Â6çö–æFW‚’À¢Ö‚À¢çVÖW&–2ƒ’À¢æç&ÒÒE%TP¢¢6çö–æFW‚ÂÒ2æ–çFVvW"†æÖW2‡fÇVW2’¢Ð ¢ÖtÕ·6çö–æFW‚Â%ÒÂÒfÇVW0¢Ð ¢¦†BÂÒÖG&—‚€¢2æ–çFVvW"†ÖtÕâF‡&W6†öÆB’À¢ç&÷rÒÒÀ¢æ6öÂÒÀ¢F–ÖæÖW2ÒF–ÖæÖW2†ÖtÕ¢ ¢ÆÅöw&–BÂÒW‡æBæw&–B€¢4åÒ6WöÆVâ†Ò’À¢G&—Eö–æFW‚Ò6WöÆVâ‡’À¢´TUäõUBäEE%2ÒdÅ4RÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢ ¢ÆÅöWf–FVæ6RÂÒFFæg&ÖR€¢4åÒÆÅöw&–BE4åÀ¢4åö¶W’Ò–çWG2G6çöÖE4åö¶W•¶ÆÅöw&–BE4åÒÀ¢G&—Eö–æFW‚ÒÆÅöw&–BGG&—Eö–æFW‚À¢G&—BÒ–çWG2GG&—EöæÖW5¶ÆÅöw&–BGG&—Eö–æFW…ÒÀ¢ÖtÕÒÖtÕ¶6&–æB†ÆÅöw&–BE4åÂÆÅöw&–BGG&—Eö–æFW‚•ÒÀ¢6VÆV7FVBÒ¦†E¶6&–æB†ÆÅöw&–BE4åÂÆÅöw&–BGG&—Eö–æFW‚•ÒÓÒÂÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢ ¢6VÆV7FVE÷—'2ÂÒÆÅöWf–FVæ6U°¢ÆÅöWf–FVæ6RG6VÆV7FVBÀ¢À¢G&÷ÒdÅ4P¢Ð ¢Æ—7B€¢ÖtÕÒÖtÕÀ¢¦†BÒ¦†BÀ¢ÆÅöWf–FVæ6RÒÆÅöWf–FVæ6RÀ¢6VÆV7FVE÷—'2Ò6VÆV7FVE÷—'2À¢F‡&W6†öÆBÒF‡&W6†öÆ@¢§Ð  ¦WfÇVFU÷—%÷6VÆV7F–öâÂÒgVæ7F–öâ…¦†BÂG'WF‚Â÷VÆF–öâÒäö–çFVvW%ò’° ¢&VBÂÒ2æÖG&—‚…¦†BÒ¢G'WF‚ÂÒ2æÖG&—‚‡G'WF‚Ò ¢–b‚–FVçF–6Â†F–Ò‡&VB’ÂF–Ò‡G'WF‚’’’°¢7F÷‚%&VF–7F–öâæBG'WF‚ÖG&–6W2†fRF–ffW&VçBF–ÖVç6–öç2â"¢Ð ¢EÂÒ7VÒ‡&VBbG'WF‚¢eÂÒ7VÒ‡&VBbG'WF‚¢dâÂÒ7VÒ‚&VBbG'WF‚¢DâÂÒ7VÒ‚&VBbG'WF‚ ¢&V6—6–öâÂÒ–b…E²eÓÒÂ’VÇ6REò…E²e¢&V6ÆÂÂÒ–b…E²dâÓÒÂ’VÇ6REò…E²dâ¢7V6–f–6—G’ÂÒ–b…Dâ²eÓÒÂ’VÇ6RDâò…Dâ²e¢cÂÒ–b‡&V6—6–öâ²&V6ÆÂÓÒ’°¢ ¢ÒVÇ6R°¢"¢&V6—6–öâ¢&V6ÆÂò‡&V6—6–öâ²&V6ÆÂ¢Ð ¢FFæg&ÖR€¢ÖWF†öBÒ$ÔvfÆ6†fÒ"À¢÷VÆF–öâÒ2æ–çFVvW"‡÷VÆF–öâ’À¢6VÆV7F–öå÷'VÆRÒ&ÖtÕâã“"À¢EÒEÀ¢eÒeÀ¢dâÒdâÀ¢DâÒDâÀ¢&V6—6–öâÒ&V6—6–öâÀ¢&V6ÆÂÒ&V6ÆÂÀ¢7V6–f–6—G’Ò7V6–f–6—G’À¢cÒcÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢§Ð  ¢22&6·v&BÖ6ö×F–&ÆR†VÇW"&WF–æVBf÷"öÆB6ÆÆW'2à¦WfÇVFU÷6†&VE÷—'2ÂÒgVæ7F–öâ…¦†BÂG'WF‚’°¢÷WBÂÒWfÇVFU÷—%÷6VÆV7F–öâ…¦†BÂG'WF‚Â÷VÆF–öâÒÂ¢÷WBG÷VÆF–öâÂÒåTÄÀ¢÷W@§Ð  ¦'V–ÆE÷G'WF…÷—'5ö'•÷÷VÆF–öâÂÒgVæ7F–öâ€¢6öÖÖöåöFFÀ¢–çWG2À¢6VÆV7FVE÷—'0¢’° ¢²ÂÒ2æ–çFVvW"†6öÖÖöåöFFD²¢&÷w2ÂÒfV7F÷"‚&Æ—7B"Â² ¢&VF–7FVEö¶W’ÂÒ7FR€¢6VÆV7FVE÷—'2E4åÀ¢6VÆV7FVE÷—'2GG&—Eö–æFW‚À¢6WÒ#¢ ¢ ¢f÷"†²–â6WöÆVâ„²’’° ¢G'WF…ö–G‚ÂÒv†–6‚€¢–çWG2GG'WF…öÖ6·5µ¶µÕÒÀ¢'"æ–æBÒE%TP¢ ¢G'WF…÷—'2ÂÒFFæg&ÖR€¢÷VÆF–öâÒ²À¢4åÒG'WF…ö–G…²ÂÅÒÀ¢4åö¶W’Ò6öÖÖöåöFFG6çö¶W•÷fV5·G'WF…ö–G…²ÂÅÕÒÀ¢G&—Eö–æFW‚ÒG'WF…ö–G…²Â$ÅÒÀ¢G&—BÒ–çWG2GG&—EöæÖW5·G'WF…ö–G…²Â$ÅÕÒÀ¢%÷G'VRÒ6öÖÖöåöFFD%÷G'VUöÆ—7Eµ¶µÕÕ·G'WF…ö–G…ÒÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢ ¢G'WF…ö¶W’ÂÒ7FR€¢G'WF…÷—'2E4åÀ¢G'WF…÷—'2GG&—Eö–æFW‚À¢6WÒ#¢ ¢ ¢G'WF…÷—'2FFWFV7FVEöÖtÕ“ÂÒG'WF…ö¶W’V–âR&VF–7FVEö¶W¢&÷w5µ¶µÕÒÂÒG'WF…÷—'0¢Ð ¢Fòæ6ÆÂ‡&&–æBÂ&÷w2§Ð  §'VåöÖvfÆ6†fÒÂÒgVæ7F–öâ€¢6öÖÖöåöf–ÆRÀ¢&W7VÇEöF—"À¢¦ÒæäÒæ—FW"ÒvWD÷F–öâ‚$ÔvfÆ6†fÒæ¦ÒæäÒæ—FW""Â’À¢¦Òç6VVBÒvWD÷F–öâ‚$ÔvfÆ6†fÒæ¦Òç6VVB"Â##c“#”Â’À¢&W7VÖRÒE%TP¢’° ¢–b‚&WV—&TæÖW76R‚$ÔvfÆ6†fÒ"ÂV–WFÇ’ÒE%TR’’°¢7F÷‚%6¶vRÔvfÆ6†fÒ—2æ÷B–ç7FÆÆVBâ"¢Ð¢–b‚&WV—&TæÖW76R‚%#$$tÆ”Õ2"ÂV–WFÇ’ÒE%TR’’°¢7F÷‚%6¶vR#$$tÆ”Õ2—2æ÷B–ç7FÆÆVC²¤ÒÇ6ò&WV—&W2¦fâ"¢Ð ¢–b€¢ÆVæwF‚†¦ÒæäÒæ—FW"’ÒÂÇÀ¢—2æçVÖW&–2†¦ÒæäÒæ—FW"’ÇÀ¢—2æf–æ—FR†¦ÒæäÒæ—FW"’ÇÀ¢¦ÒæäÒæ—FW"ÃÒ ¢’°¢7F÷‚&¦ÒæäÒæ—FW"×W7B&RöæR÷6—F—fRf–æ—FRçVÖ&W"â"¢Ð ¢–b€¢ÆVæwF‚†¦Òç6VVB’ÒÂÇÀ¢—2æçVÖW&–2†¦Òç6VVB’ÇÀ¢—2æf–æ—FR†¦Òç6VVB¢’°¢7F÷‚&¦Òç6VVB×W7B&RöæRf–æ—FRçVÖW&–2fÇVRâ"¢Ð ¢7W&W756¶vU7F'GWÖW76vW2†Æ–'&'’…#$$tÆ”Õ2’¢7W&W756¶vU7F'GWÖW76vW2†Æ–'&'’„ÔvfÆ6†fÒ’ ¢6öÖÖöåöf–ÆRÂÒæ÷&ÖÆ—¦UF‚†6öÖÖöåöf–ÆRÂ×W7Ev÷&²ÒE%TR¢F—"æ7&VFR‡&W7VÇEöF—"Â&V7W'6—fRÒE%TRÂ6†÷uv&æ–æw2ÒdÅ4R¢&W7VÇEöF—"ÂÒæ÷&ÖÆ—¦UF‚‡&W7VÇEöF—"Â×W7Ev÷&²ÒE%TR ¢6öÖÖöåöFFÂÒ&VE$E2†6öÖÖöåöf–ÆR¢–çWG2ÂÒÖ¶UöÖvfÆ6†fÕö–çWG2†6öÖÖöåöFF ¢²ÂÒ2æ–çFVvW"†6öÖÖöåöFFD²¢ÒÂÒ2æ–çFVvW"†6öÖÖöåöFFFÒ¢ÂÒ2æ–çFVvW"†6öÖÖöåöFFG ¢6B‚%ÆãÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÕÆâ"¢6B‚%'Vææ–ærÔvfÆ6†fÕÆâ"¢6B‚#ÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÓÕÆâ"¢6B‚%66Væ&–ó¢"Â6öÖÖöåöFFG66Væ&–õöæÖRÂ%Æâ"¢6B‚$²Ò"Â²Â'ÂÒÒ"ÂÒÂ'ÂÒ"ÂÂ%Æâ"¢6B€¢&¦ÒæäÒæ—FW"Ò"Â¦ÒæäÒæ—FW"À¢&Ö–ÆÆ–öâÒ"À¢f÷&ÖB†¦ÒæäÒæ—FW"¢SbÂ66–VçF–f–2ÒdÅ4R’À¢&—FW&F–öç2W"¤Ò'VåÆâ ¢¢6B‚$¤Ò"6VVBÒ"Â2æ–çFVvW"†¦Òç6VVB’Â%Æâ"¢6B‚'&W7VÖRÒ"Â—5E%TR‡&W7VÖR’Â%Æâ" ¢w&—FRæ77b€¢–çWG2G6çöÖÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â'6çö–EöÖæ77b"’À¢&÷rææÖW2ÒdÅ4P¢ ¢6÷&U÷F–ÖRÂÒ7—7FVÒçF–ÖR‡°¢6÷&RÂÒ'VåöÖvfÆ6†fÕö6÷&Uö6†V6·ö–çFVB€¢–çWG2Ò–çWG2À¢&W7VÇEöF—"Ò&W7VÇEöF—"À¢¦ÒæäÒæ—FW"Ò¦ÒæäÒæ—FW"À¢¦Òç6VVBÒ2æ–çFVvW"†¦Òç6VVB’À¢7Òã“’À¢7&VBÒã“’À¢DöFG2ÒÀ¢Ö†7bÒÀ¢Ö†7e÷7F÷Ò#À¢#"ÒãƒÀ¢ä4õ$U2ÒÀ¢W‡G&æ¦fæ&wVÖVçG2ÒåTÄÂÀ¢&W7VÖRÒ&W7VÖRÀ¢66Væ&–õöæÖRÒ6öÖÖöåöFFG66Væ&–õöæÖP¢¢Ò ¢Öv×D52ÂÒ6÷&RFÖv×D50 ¢226fRF†R6ö×ÆWFRöff–6–ÂÖÆ–÷WB&W7VÇB&Vf÷&Rç’ÆFW"F–væ÷7F–0¢22÷"55b6öFRâF†—2&WfVçG2Æ÷6–ærâW‡Vç6—fRf—BFò÷7B×&ö6W76–ærà¢6fU$E2€¢Öv×D52À¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕööff–6–Å÷&W7VÇBç&G2"¢ ¢6VÆV7F–öâÂÒW‡G&7EöÖv×÷6VÆV7F–öâ€¢Öv×D52ÒÖv×D52À¢–çWG2Ò–çWG2À¢6öÖÖöåöFFÒ6öÖÖöåöFFÀ¢F‡&W6†öÆBÒã“ ¢ ¢226fR6VÆV7F–öâ–ÖÖVF–FVÇ’2æ÷F†W"&V6÷fW'’ö–çBà¢6fU$E2€¢6VÆV7F–öâFÖtÕÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕöÖtÕöÖG&—‚ç&G2"¢¢6fU$E2€¢6VÆV7F–öâE¦†BÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕõ¦†EöÖtÕ“ç&G2"¢ ¢75÷—'2ÂÒ7&VF–&ÆU÷6WE÷—'2€¢Öv×D52ÒÖv×D52À¢–çWG2Ò–çWG2À¢6öÖÖöåöFFÒ6öÖÖöåöFF¢ ¢ÖWG&–75ö'•÷÷VÆF–öâÂÒFòæ6ÆÂ€¢&&–æBÀ¢ÆÇ’€¢6WöÆVâ„²’À¢gVæ7F–öâ†²’°¢WfÇVFU÷—%÷6VÆV7F–öâ€¢¦†BÒ6VÆV7F–öâE¦†BÀ¢G'WF‚Ò–çWG2GG'WF…öÖ6·5µ¶µÕÒÀ¢÷VÆF–öâÒ°¢¢Ð¢¢ ¢G'WF…÷—'2ÂÒ'V–ÆE÷G'WF…÷—'5ö'•÷÷VÆF–öâ€¢6öÖÖöåöFFÒ6öÖÖöåöFFÀ¢–çWG2Ò–çWG2À¢6VÆV7FVE÷—'2Ò6VÆV7F–öâG6VÆV7FVE÷—'0¢ ¢227&VF–&ÆR×6WB6÷fW&vR'’÷VÆF–öââF†—2&VÖ–ç2F–væ÷7F–2öæÇ“°¢22F†R6–×VÆF–öâ6VÆV7F–öâ'VÆR—2ÖtÕâã“à¢75ö¶W’ÂÒ7FR†75÷—'2E4åÂ75÷—'2GG&—Eö–æFW‚Â6WÒ#¢" ¢75öÖWG&–75ö'•÷÷VÆF–öâÂÒFòæ6ÆÂ€¢&&–æBÀ¢ÆÇ’€¢6WöÆVâ„²’À¢gVæ7F–öâ†²’°¢G'WF…ö²ÂÒG'WF…÷—'5·G'WF…÷—'2G÷VÆF–öâÓÒ²ÂÂG&÷ÒdÅ4UÐ¢G'WF…ö¶W’ÂÒ7FR‡G'WF…ö²E4åÂG'WF…ö²GG&—Eö–æFW‚Â6WÒ#¢" ¢FFæg&ÖR€¢ÖWF†öBÒ$ÔvfÆ6†fÕô53“’"À¢÷VÆF–öâÒ²À¢W'÷6RÒ&7&VF–&ÆU÷6WEö6÷fW&vU÷&W6öÇWF–öåööæÇ’"À¢åô53“•õ4å÷G&—E÷—'2Òç&÷r†75÷—'2’À¢å÷G'VU÷—'5ö6÷fW&VBÒ7VÒ‡G'WF…ö¶W’V–âR75ö¶W’’À¢G'WF…÷—%ö6÷fW&vRÒ–b†ÆVæwF‚‡G'WF…ö¶W’’ÓÒÂ’°¢ä÷&VÅð¢ÒVÇ6R°¢ÖVâ‡G'WF…ö¶W’V–âR75ö¶W’¢ÒÀ¢ÖVåô53“•÷6—¦RÒ–b†ç&÷r†75÷—'2’ÓÒÂ’°¢ ¢ÒVÇ6R°¢ÖVâ†2æçVÖW&–2‡F&ÆR†75÷—'2GG&—Eö–æFW‚’’¢ÒÀ¢7G&–æw44f7F÷'2ÒdÅ4P¢¢Ð¢¢ ¢22æöæW76VçF–Â‡VÖâ×&VF&ÆR÷WGWG2&Rw&—GFVâöæÇ’gFW"ÆÂ$E0¢22&V6÷fW'’ö–çG2&÷fRW†—7Bà¢w&—FRæ77b€¢75÷—'2À¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕô53“•õ4å÷G&—E÷—'2æ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢6VÆV7F–öâFÖtÕÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕöÖtÕöÖG&—‚æ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢6VÆV7F–öâE¦†BÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕõ¦†EöÖtÕ“æ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢6VÆV7F–öâFÆÅöWf–FVæ6RÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕöÆÅõ4å÷G&—EöÖtÕæ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢6VÆV7F–öâG6VÆV7FVE÷—'2À¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕöÖtÕ“õ4å÷G&—E÷—'2æ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢G'WF…÷—'2À¢f–ÆRçF‚‡&W7VÇEöF—"Â'G'WF…õ4å÷G&—E÷—'5ö'•÷÷VÆF–öâæ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢ÖWG&–75ö'•÷÷VÆF–öâÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕ÷—%öÖWG&–72æ77b"’À¢&÷rææÖW2ÒdÅ4P¢¢w&—FRæ77b€¢75öÖWG&–75ö'•÷÷VÆF–öâÀ¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕô53“•ö6÷fW&vU÷&W6öÇWF–öâæ77b"’À¢&÷rææÖW2ÒdÅ4P¢ ¢'VçF–ÖRÂÒÆ—7B€¢6÷&UöVÆ6VE÷6V2ÒVææÖR†6÷&U÷F–ÖU²&VÆ6VB%Ò’À¢6÷&U÷W6W%÷6V2ÒVææÖR†6÷&U÷F–ÖU²'W6W"ç6VÆb%Ò’À¢6÷&U÷7—7FVÕ÷6V2ÒVææÖR†6÷&U÷F–ÖU²'7—2ç6VÆb%Ò¢ ¢6fU$E2€¢Æ—7B€¢66Væ&–õöæÖRÒ6öÖÖöåöFFG66Væ&–õöæÖRÀ¢²Ò²À¢ÒÒÒÀ¢ÒÀ¢¦ÒæäÒæ—FW"Ò2æçVÖW&–2†¦ÒæäÒæ—FW"’À¢¦Òæ—FW&F–öç2Ò2æçVÖW&–2†¦ÒæäÒæ—FW"’¢SbÀ¢¦Òç6VVBÒ2æ–çFVvW"†¦Òç6VVB’À¢'VçF–ÖRÒ'VçF–ÖRÀ¢6†V6·ö–çEöF—"Ò6÷&RF6†V6·ö–çEöF—"À¢¦ÕöF—"Ò6÷&RF¦ÕöF—"À¢ÖWG&–75ö'•÷÷VÆF–öâÒÖWG&–75ö'•÷÷VÆF–öà¢’À¢f–ÆRçF‚‡&W7VÇEöF—"Â$ÔvfÆ6†fÕ÷'VåöÖWFFFç&G2"¢ ¢6B‚%ÆäÔvfÆ6†fÒ6ö×ÆWFVBåÆâ"¢6B‚&ÖtÕâã“4å×G&—B—'3¢"Âç&÷r‡6VÆV7F–öâG6VÆV7FVE÷—'2’Â%Æâ"¢6B‚$53“’4å×G&—B—'3¢"Âç&÷r†75÷—'2’Â%Æâ"¢6B‚$6÷&RVÆ6VB6V6öæG3¢"Â'VçF–ÖRF6÷&UöVÆ6VE÷6V2Â%Æâ"¢6B‚%&W7VÇG3¢"Â&W7VÇEöF—"Â%Æâ" ¢–çf—6–&ÆR€¢Æ—7B€¢&W7VÇBÒÖv×D52À¢ÖtÕÒ6VÆV7F–öâFÖtÕÀ¢¦†BÒ6VÆV7F–öâE¦†BÀ¢6VÆV7FVE÷—'2Ò6VÆV7F–öâG6VÆV7FVE÷—'2À¢53“•÷—'2Ò75÷—'2À¢G'WF‚ÒG'WF…÷—'2À¢ÖWG&–72ÒÖWG&–75ö'•÷÷VÆF–öâÀ¢ÖWG&–75ö'•÷÷VÆF–öâÒÖWG&–75ö'•÷÷VÆF–öâÀ¢53“•öÖWG&–72Ò75öÖWG&–75ö'•÷÷VÆF–öâÀ¢¦ÒæäÒæ—FW"Ò2æçVÖW&–2†¦ÒæäÒæ—FW"’À¢¦Òæ—FW&F–öç2Ò2æçVÖW&–2†¦ÒæäÒæ—FW"’¢SbÀ¢'VçF–ÖRÒ'VçF–ÖRÀ¢6†V6·ö–çEöF—"Ò6÷&RF6†V6·ö–çEöF—"À¢¦ÕöF—"Ò6÷&RF¦ÕöF— ¢¢§Ð
+      repaired_traits <- c(repaired_traits, i)
+    }
+
+    if (length(repaired_traits)) {
+      attr(out, "mvpvb_duplicate_model_traits") <- repaired_traits
+    }
+    out
+  }
+
+  fixed <- function(
+    gwas.list,
+    corX,
+    ybar,
+    Vy,
+    N,
+    r2 = 0.99,
+    save.path,
+    maxcv = 2,
+    maxcv_stop = 20,
+    maxcv_autocheck = TRUE,
+    jam.nM.iter = 1,
+    extra.java.arguments = NULL
+  ) {
+    out <- original(
+      gwas.list = gwas.list,
+      corX = corX,
+      ybar = ybar,
+      Vy = Vy,
+      N = N,
+      r2 = r2,
+      save.path = save.path,
+      maxcv = maxcv,
+      maxcv_stop = maxcv_stop,
+      maxcv_autocheck = maxcv_autocheck,
+      jam.nM.iter = jam.nM.iter,
+      extra.java.arguments = extra.java.arguments
+    )
+    repair_output(out)
+  }
+
+  probe_sm <- PP2snpmod_function(data.frame(
+    str = c("snp0001", "snp0001", "snp0002"),
+    PP = c(0.4, 0.4, 0.2),
+    stringsAsFactors = FALSE
+  ))
+  probe <- repair_output(list(
+    SM = list(probe_sm),
+    mbeta = list(stats::setNames(
+      list(1, 1, 2),
+      c("snp0001", "snp0001", "snp0002")
+    ))
+  ))
+  ordinary_probe <- list(
+    SM = list(PP2snpmod_function(data.frame(
+      str = c("snp0001", "snp0002"),
+      PP = c(0.6, 0.4),
+      stringsAsFactors = FALSE
+    ))),
+    mbeta = list(stats::setNames(
+      list(1, 2),
+      c("snp0001", "snp0002")
+    ))
+  )
+  ordinary_check <- repair_output(ordinary_probe)
+  if (
+    !identical(as.character(probe$SM[[1L]]@models$str), c("snp0001", "snp0002")) ||
+    !isTRUE(all.equal(
+      as.numeric(probe$SM[[1L]]@models$PP),
+      c(2 / 3, 1 / 3),
+      tolerance = 100 * .Machine$double.eps
+    )) ||
+    anyDuplicated(names(probe$mbeta[[1L]])) ||
+    !identical(ordinary_check, ordinary_probe)
+  ) {
+    stop("Failed to validate the MGflashfm duplicate canonical-model patch.")
+  }
+
+  attr(fixed, "mvpvb_duplicate_canonical_model_patch") <- TRUE
+  assignInNamespace(
+    x = "JAMmulti2",
+    value = fixed,
+    ns = "MGflashfm"
+  )
+
+  patched <- get("JAMmulti2", envir = ns, inherits = FALSE)
+  if (!isTRUE(attr(patched, "mvpvb_duplicate_canonical_model_patch"))) {
+    stop("Failed to install the MGflashfm duplicate canonical-model patch.")
+  }
+
+  message(
+    "MGflashfm duplicate-model patch applied: exact canonical copies are removed."
+  )
+  invisible(TRUE)
+}
+
+
+## ------------------------------------------------------------
+## Bound the exponential six-trait joint-model calculation.
+##
+## flashfm::ppadjT6fast() explicitly enumerates the Cartesian product of
+## the retained models for all six traits, and flashfmU() repeats that work
+## once per trait.  Diffuse JAM posteriors can therefore turn a modest list
+## of per-trait models into billions of joint evaluations.  flashfmU()
+## already exposes the official maxmod argument for this purpose, but
+## FLASHFMwithJAMd() always calls it with maxmod = NULL.
+##
+## This patch leaves the ordinary cpp-based path unchanged when its predicted
+## work is within budget.  Only an over-budget six-trait analysis receives
+## the largest official maxmod cap whose predicted work stays within budget.
+## ------------------------------------------------------------
+patch_mgflashfm_six_trait_runtime_guard <- function(
+    max_joint_evaluations = 1200000
+) {
+
+  if (!requireNamespace("MGflashfm", quietly = TRUE)) {
+    stop("Package MGflashfm is not installed.")
+  }
+
+  if (
+    length(max_joint_evaluations) != 1L ||
+    !is.finite(max_joint_evaluations) ||
+    max_joint_evaluations < 6
+  ) {
+    stop("max_joint_evaluations must be one finite number >= 6.")
+  }
+  max_joint_evaluations <- as.numeric(max_joint_evaluations)
+
+  ns <- asNamespace("MGflashfm")
+  current <- get("flashfmU", envir = ns, inherits = FALSE)
+  required_formals <- c(
+    "main.input", "TOdds", "covY", "ss.stats", "cpp", "maxmod",
+    "fastapprox", "NCORES"
+  )
+  if (!identical(names(formals(current)), required_formals)) {
+    stop(
+      "Unsupported MGflashfm::flashfmU() signature: ",
+      paste(names(formals(current)), collapse = ", "),
+      "."
+    )
+  }
+
+  if (isTRUE(attr(current, "mvpvb_six_trait_runtime_guard"))) {
+    installed_budget <- attr(current, "mvpvb_max_joint_evaluations")
+    if (!identical(as.numeric(installed_budget), max_joint_evaluations)) {
+      stop(
+        "MGflashfm six-trait runtime guard is already installed with budget ",
+        installed_budget,
+        "; requested ",
+        max_joint_evaluations,
+        "."
+      )
+    }
+    return(invisible(TRUE))
+  }
+
+  original <- current
+
+  fixed <- function(
+    main.input,
+    TOdds,
+    covY,
+    ss.stats,
+    cpp = 0.99,
+    maxmod = NULL,
+    fastapprox = FALSE,
+    NCORES
+  ) {
+    effective_maxmod <- maxmod
+
+    if (is.null(maxmod) && length(main.input$SM) == 6L) {
+      model_tables <- lapply(main.input$SM, function(x) x@models)
+      raw_counts <- vapply(model_tables, nrow, integer(1L))
+
+      if (
+        any(raw_counts < 1L) ||
+        any(vapply(
+          model_tables,
+          function(x) {
+            !"PP" %in% names(x) ||
+              any(!is.finite(x$PP)) ||
+              any(x$PP < 0) ||
+              sum(x$PP) <= 0
+          },
+          logical(1L)
+        ))
+      ) {
+        stop("Invalid six-trait model posterior supplied to flashfmU().")
+      }
+
+      cpp_counts <- vapply(
+        model_tables,
+        function(x) {
+          pp <- sort(as.numeric(x$PP), decreasing = TRUE)
+          wh <- which(cumsum(pp) <= cpp)
+          if (!length(wh)) wh <- 1L
+          length(unique(c(wh, min(max(wh) + 1L, length(pp)))))
+        },
+        integer(1L)
+      )
+
+      uncapped_states <- prod(as.numeric(cpp_counts))
+      uncapped_evaluations <- 6 * uncapped_states
+
+      if (uncapped_evaluations > max_joint_evaluations) {
+        candidate_caps <- seq_len(max(raw_counts))
+        candidate_evaluations <- vapply(
+          candidate_caps,
+          function(cap) {
+            6 * prod(as.numeric(pmin(raw_counts, cap)))
+          },
+          numeric(1L)
+        )
+        feasible <- candidate_caps[
+          candidate_evaluations <= max_joint_evaluations
+        ]
+        if (!length(feasible)) feasible <- 1L
+        effective_maxmod <- max(feasible)
+        capped_counts <- pmin(raw_counts, effective_maxmod)
+        capped_evaluations <- 6 * prod(as.numeric(capped_counts))
+        retained_mass <- vapply(
+          model_tables,
+          function(x) {
+            pp <- sort(as.numeric(x$PP), decreasing = TRUE)
+            sum(pp[seq_len(min(effective_maxmod, length(pp)))]) / sum(pp)
+          },
+          numeric(1L)
+        )
+
+        message(
+          "MGflashfm six-trait runtime guard triggered: cpp model counts = ",
+          paste(cpp_counts, collapse = "/"),
+          "; predicted evaluations = ",
+          format(uncapped_evaluations, scientific = FALSE, trim = TRUE),
+          "."
+        )
+        message(
+          "Using official flashfmU maxmod = ",
+          effective_maxmod,
+          "; capped model counts = ",
+          paste(capped_counts, collapse = "/"),
+          "; predicted evaluations = ",
+          format(capped_evaluations, scientific = FALSE, trim = TRUE),
+          "; retained posterior mass = ",
+          paste(formatC(retained_mass, digits = 6L, format = "f"), collapse = "/"),
+          "."
+        )
+      }
+    }
+
+    original(
+      main.input = main.input,
+      TOdds = TOdds,
+      covY = covY,
+      ss.stats = ss.stats,
+      cpp = cpp,
+      maxmod = effective_maxmod,
+      fastapprox = fastapprox,
+      NCORES = NCORES
+    )
+  }
+
+  attr(fixed, "mvpvb_six_trait_runtime_guard") <- TRUE
+  attr(fixed, "mvpvb_max_joint_evaluations") <- max_joint_evaluations
+  assignInNamespace(x = "flashfmU", value = fixed, ns = "MGflashfm")
+
+  patched <- get("flashfmU", envir = ns, inherits = FALSE)
+  if (
+    !isTRUE(attr(patched, "mvpvb_six_trait_runtime_guard")) ||
+    !identical(
+      as.numeric(attr(patched, "mvpvb_max_joint_evaluations")),
+      max_joint_evaluations
+    )
+  ) {
+    stop("Failed to install the MGflashfm six-trait runtime guard.")
+  }
+
+  message(
+    "MGflashfm six-trait runtime guard applied: joint-evaluation budget = ",
+    format(max_joint_evaluations, scientific = FALSE, trim = TRUE),
+    "."
+  )
+  invisible(TRUE)
+}
+
+
+## ------------------------------------------------------------
+## Prevent best.models.cpp() from appending an out-of-range row.
+##
+## In the MGflashfm version used on the server, cpp selection always appends
+## max(wh) + 1.  When JAM returns only the legal null model ("1", PP = 1),
+## that index is 2 although the model table has one row.  R then creates an
+## all-NA model row; flashfmU() later reaches FALSE | NA inside calcQ12() and
+## stops with "missing value where TRUE/FALSE needed".
+##
+## The wrapper below delegates every ordinary case to the installed package
+## unchanged.  It intervenes only when the package's next-row index would be
+## outside the model table, retaining the valid in-range rows and applying the
+## same posterior-probability normalization/output construction.
+## ------------------------------------------------------------
+patch_mgflashfm_best_models_cpp <- function() {
+
+  if (!requireNamespace("MGflashfm", quietly = TRUE)) {
+    stop("Package MGflashfm is not installed.")
+  }
+
+  ns <- asNamespace("MGflashfm")
+  current <- get("best.models.cpp", envir = ns, inherits = FALSE)
+
+  required_formals <- c("d", "cpp.thr", "maxmod")
+  if (!identical(names(formals(current)), required_formals)) {
+    stop(
+      "Unsupported MGflashfm::best.models.cpp() signature: ",
+      paste(names(formals(current)), collapse = ", "),
+      "."
+    )
+  }
+
+  ## Make repeated calls within the same R process harmless.
+  if (isTRUE(attr(current, "mvpvb_cpp_boundary_patch"))) {
+    return(invisible(FALSE))
+  }
+
+  original <- current
+  fixed <- function(d, cpp.thr = 0.99, maxmod = NULL) {
+    if (is.null(maxmod)) {
+      models <- d@models[
+        order(d@models$PP, decreasing = TRUE),
+        ,
+        drop = FALSE
+      ]
+
+      if (nrow(models) < 1L) {
+        stop("MGflashfm best.models.cpp() received an empty model table.")
+      }
+      if (
+        any(!is.finite(models$PP)) ||
+        any(models$PP < 0)
+      ) {
+        stop("MGflashfm best.models.cpp() received invalid model probabilities.")
+      }
+
+      cumulative_pp <- cumsum(models$PP)
+      keep <- which(cumulative_pp <= cpp.thr)
+      if (!length(keep)) keep <- 1L
+      next_index <- max(keep) + 1L
+
+      ## Only replace the package path that would create an all-NA row.
+      if (next_index > nrow(models)) {
+        keep <- unique(keep[
+          keep >= 1L & keep <= nrow(models)
+        ])
+        if (!length(keep)) {
+          stop("MGflashfm CPP selection retained no valid model row.")
+        }
+
+        d2 <- d
+        d2@models <- models[keep, , drop = FALSE]
+        pp_total <- sum(d2@models$PP)
+        if (!is.finite(pp_total) || pp_total <= 0) {
+          stop("MGflashfm CPP-selected probabilities have invalid total mass.")
+        }
+        d2@models$PP <- d2@models$PP / pp_total
+
+        makestr <- get("makestr", envir = ns, inherits = TRUE)
+        snps <- unlist(
+          lapply(
+            strsplit(as.character(d2@models$str), "%", fixed = TRUE),
+            makestr
+          ),
+          use.names = FALSE
+        )
+
+        return(list(
+          models = cbind(d2@models, snps = snps),
+          old.cpp = cpp.thr
+        ))
+      }
+    }
+
+    original(d = d, cpp.thr = cpp.thr, maxmod = maxmod)
+  }
+
+  attr(fixed, "mvpvb_cpp_boundary_patch") <- TRUE
+  assignInNamespace(
+    x = "best.models.cpp",
+    value = fixed,
+    ns = "MGflashfm"
+  )
+
+  patched <- get(
+    "best.models.cpp",
+    envir = asNamespace("MGflashfm"),
+    inherits = FALSE
+  )
+  if (!isTRUE(attr(patched, "mvpvb_cpp_boundary_patch"))) {
+    stop("Failed to install the MGflashfm CPP boundary patch.")
+  }
+
+  message(
+    "MGflashfm CPP boundary patch applied: out-of-range model rows are blocked."
+  )
+  invisible(TRUE)
+}
+
+
+## ------------------------------------------------------------
+## Preserve matrix dimensions in MGflashfm::MPP.fn() when a trait has
+## exactly one retained model.
+##
+## The installed MGflashfm version uses apply() twice.  For a one-model
+## trait, the first apply() simplifies its result to a scalar/vector; the
+## second apply(tmp1, 1, sum) then fails because tmp1 has no dim attribute.
+## This patch delegates every multi-model input to the package unchanged.
+## For a one-model input it reproduces the package function, restoring only
+## the dimension that apply() dropped before performing the same row sums.
+## ------------------------------------------------------------
+patch_mgflashfm_mpp_single_model <- function() {
+
+  if (!requireNamespace("MGflashfm", quietly = TRUE)) {
+    stop("Package MGflashfm is not installed.")
+  }
+
+  ns <- asNamespace("MGflashfm")
+  current <- get("MPP.fn", envir = ns, inherits = FALSE)
+
+  if (!identical(names(formals(current)), "PP1")) {
+    stop(
+      "Unsupported MGflashfm::MPP.fn() signature: ",
+      paste(names(formals(current)), collapse = ", "),
+      "."
+    )
+  }
+
+  ## Make repeated calls within the same R process harmless.
+  if (isTRUE(attr(current, "mvpvb_mpp_single_model_patch"))) {
+    return(invisible(FALSE))
+  }
+
+  probe <- matrix(
+    c(1, 1),
+    nrow = 1L,
+    dimnames = list("1", c("pp.null", "pp.1"))
+  )
+  probe_result <- tryCatch(current(probe), error = identity)
+
+  ## Do not replace a future package version that already handles this case.
+  if (
+    !inherits(probe_result, "error") &&
+    is.matrix(probe_result) &&
+    identical(dim(probe_result), c(1L, 2L)) &&
+    identical(rownames(probe_result), "1") &&
+    identical(colnames(probe_result), c("pp.null", "pp.1")) &&
+    !anyNA(probe_result) &&
+    all(is.finite(probe_result))
+  ) {
+    return(invisible(FALSE))
+  }
+
+  original <- current
+  original_environment <- environment(current)
+  if (!is.environment(original_environment)) {
+    stop("MGflashfm::MPP.fn() has no valid function environment.")
+  }
+
+  ## Resolve the helpers exactly where the installed MPP.fn() resolves its
+  ## free variables.  In MGflashfm 0.0.0.9000 these helpers are not exported
+  ## bindings in asNamespace("MGflashfm"), although the official function can
+  ## reach them through its own lexical environment/import chain.
+  sep_function <- get(
+    "sep.fn",
+    envir = original_environment,
+    inherits = TRUE
+  )
+  check_function <- get(
+    "check.fn",
+    envir = original_environment,
+    inherits = TRUE
+  )
+
+  fixed <- function(PP1) {
+    ## Preserve the installed package behavior for every ordinary input.
+    if (!is.matrix(PP1) || nrow(PP1) != 1L) {
+      return(original(PP1))
+    }
+
+    if (
+      ncol(PP1) < 1L ||
+      is.null(rownames(PP1)) ||
+      is.null(colnames(PP1))
+    ) {
+      stop("MGflashfm MPP.fn() received an invalid one-model matrix.")
+    }
+
+    mnames <- rownames(PP1)
+    model_index <- matrix(seq_along(mnames), ncol = 1L)
+    msep <- apply(model_index, 1L, sep_function, mnames)
+    gnames <- unique(unlist(msep, use.names = FALSE))
+
+    if (length(gnames) < 1L || anyNA(gnames)) {
+      stop("MGflashfm MPP.fn() produced invalid model names.")
+    }
+
+    mpp1 <- NULL
+    for (k in seq_len(ncol(PP1))) {
+      tmp1 <- apply(
+        model_index,
+        1L,
+        check_function,
+        msep,
+        PP1[, k],
+        gnames
+      )
+
+      ## apply() drops the matrix dimension when there is one model.
+      if (is.null(dim(tmp1))) {
+        expected_length <- length(gnames) * length(mnames)
+        if (length(tmp1) != expected_length) {
+          stop(
+            "MGflashfm MPP.fn() returned an unexpected one-model result: ",
+            "length ", length(tmp1), ", expected ", expected_length, "."
+          )
+        }
+        tmp1 <- matrix(
+          tmp1,
+          nrow = length(gnames),
+          ncol = length(mnames)
+        )
+      }
+
+      mpp1 <- rbind(mpp1, rowSums(tmp1))
+    }
+
+    mpp1 <- data.frame(mpp1, row.names = colnames(PP1))
+    names(mpp1) <- gnames
+    t(mpp1)
+  }
+
+  attr(fixed, "mvpvb_mpp_single_model_patch") <- TRUE
+  assignInNamespace(
+    x = "MPP.fn",
+    value = fixed,
+    ns = "MGflashfm"
+  )
+
+  patched <- get("MPP.fn", envir = ns, inherits = FALSE)
+  check <- patched(probe)
+  if (
+    !is.matrix(check) ||
+    !identical(dim(check), c(1L, 2L)) ||
+    !identical(rownames(check), "1") ||
+    !identical(colnames(check), c("pp.null", "pp.1")) ||
+    anyNA(check) ||
+    any(!is.finite(check)) ||
+    !isTRUE(all.equal(unname(check), unname(probe), tolerance = 0))
+  ) {
+    stop("Failed to install the MGflashfm one-model MPP patch.")
+  }
+
+  message(
+    "MGflashfm MPP patch applied: one-model apply() dimensions preserved."
+  )
+  invisible(TRUE)
+}
+
+
+## ------------------------------------------------------------
+## Preserve the model name passed from flashfm::PPsummarise() to
+## flashfm::PPmodGroups() when a trait has exactly one retained model.
+##
+## The installed flashfm version extracts a posterior column with
+## fm.multi$PP[[i]][, j].  For a 1 x 2 matrix, R simplifies this to an
+## unnamed scalar, so names(modPP) is NULL inside PPmodGroups() and
+## as.matrix(NULL) fails.  Every input without a one-model trait is delegated
+## to the package unchanged.  On the boundary path, the package function is
+## reproduced with only the two column extractions made explicitly named.
+## ------------------------------------------------------------
+patch_mgflashfm_ppsummarise_single_model <- function() {
+  if (
+    !requireNamespace("MGflashfm", quietly = TRUE) ||
+    !requireNamespace("flashfm", quietly = TRUE)
+  ) {
+    stop("Packages MGflashfm and flashfm must both be installed.")
+  }
+
+  mg_ns <- asNamespace("MGflashfm")
+  flash_ns <- asNamespace("flashfm")
+  mg_binding_env <- mg_ns
+  while (
+    !identical(mg_binding_env, emptyenv()) &&
+    !exists("PPsummarise", envir = mg_binding_env, inherits = FALSE)
+  ) {
+    mg_binding_env <- parent.env(mg_binding_env)
+  }
+  if (
+    identical(mg_binding_env, emptyenv()) ||
+    !exists("PPsummarise", envir = mg_binding_env, inherits = FALSE)
+  ) {
+    stop("MGflashfm cannot resolve its imported PPsummarise binding.")
+  }
+  current <- get("PPsummarise", envir = mg_binding_env, inherits = FALSE)
+  required_formals <- c("fm.multi", "snpGroups", "minPP")
+
+  if (!identical(names(formals(current)), required_formals)) {
+    stop(
+      "Unsupported flashfm::PPsummarise() signature: ",
+      paste(names(formals(current)), collapse = ", "),
+      "."
+    )
+  }
+
+  if (isTRUE(attr(current, "mvpvb_ppsummarise_single_model_patch"))) {
+    return(invisible(FALSE))
+  }
+
+  original <- current
+  original_environment <- environment(current)
+  if (!is.environment(original_environment)) {
+    stop("flashfm::PPsummarise() has no valid function environment.")
+  }
+  PPmodGroups_function <- get(
+    "PPmodGroups",
+    envir = original_environment,
+    inherits = TRUE
+  )
+  MPPmodGroups_function <- get(
+    "MPPmodGroups",
+    envir = original_environment,
+    inherits = TRUE
+  )
+  smartbind_function <- get(
+    "smartbind",
+    envir = original_environment,
+    inherits = TRUE
+  )
+
+  fixed <- function(fm.multi, snpGroups, minPP = 0.05) {
+    one_model <- vapply(
+      fm.multi$PP,
+      function(x) is.matrix(x) && nrow(x) == 1L,
+      logical(1)
+    )
+
+    ## Preserve the installed package behavior for every ordinary input.
+    if (!any(one_model)) {
+      return(original(fm.multi, snpGroups, minPP = minPP))
+    }
+
+    MPP <- fm.multi$MPP
+    pp <- fm.multi$PP
+    M <- length(pp)
+    snpgroups <- snpGroups[[1]]
+    snpgroups2 <- snpGroups[[2]]
+    tnames <- names(fm.multi$PP)
+    PPout <- PPout2 <- outPPg <- outPP <- vector("list", M)
+    MPPout <- MPPout2 <- outMPPg <- outMPP <- vector("list", M)
+
+    extract_named_pp <- function(model_pp, column_index) {
+      if (
+        !is.matrix(model_pp) ||
+        ncol(model_pp) < column_index ||
+        is.null(rownames(model_pp)) ||
+        length(rownames(model_pp)) != nrow(model_pp)
+      ) {
+        stop("flashfm::PPsummarise() received an invalid posterior matrix.")
+      }
+      stats::setNames(
+        as.numeric(model_pp[, column_index]),
+        rownames(model_pp)
+      )
+    }
+
+    for (i in seq_len(M)) {
+      PPout[[i]] <- PPmodGroups_function(
+        extract_named_pp(fm.multi$PP[[i]], 1L),
+        snpgroups,
+        minPP = 0
+      )
+      PPout2[[i]] <- PPmodGroups_function(
+        extract_named_pp(fm.multi$PP[[i]], 2L),
+        snpgroups2,
+        minPP = 0
+      )
+      pplist <- list(
+        t(data.frame(
+          PPout[[i]]$group[, 2],
+          row.names = rownames(PPout[[i]]$group)
+        )),
+        t(data.frame(
+          PPout2[[i]]$group[, 2],
+          row.names = rownames(PPout2[[i]]$group)
+        ))
+      )
+      outPPg[[i]] <- t(do.call(smartbind_function, c(pplist, fill = 0)))
+      colnames(outPPg[[i]]) <- fm.multi$sharing
+      pplist <- list(
+        t(data.frame(
+          PPout[[i]]$snp[, 3],
+          row.names = rownames(PPout[[i]]$snp)
+        )),
+        t(data.frame(
+          PPout2[[i]]$snp[, 3],
+          row.names = rownames(PPout2[[i]]$snp)
+        ))
+      )
+      outPP[[i]] <- t(do.call(smartbind_function, c(pplist, fill = 0)))
+      colnames(outPP[[i]]) <- fm.multi$sharing
+      MPPout[[i]] <- MPPmodGroups_function(PPout[[i]]$snp)
+      MPPout2[[i]] <- MPPmodGroups_function(PPout2[[i]]$snp)
+      pplist <- list(
+        t(data.frame(
+          MPPout[[i]][, 1],
+          row.names = rownames(MPPout[[i]])
+        )),
+        t(data.frame(
+          MPPout2[[i]][, 1],
+          row.names = rownames(MPPout2[[i]])
+        ))
+      )
+      outMPP[[i]] <- t(do.call(smartbind_function, c(pplist, fill = 0)))
+      colnames(outMPP[[i]]) <- fm.multi$sharing
+      MPPout[[i]] <- MPPmodGroups_function(PPout[[i]]$group)
+      MPPout2[[i]] <- MPPmodGroups_function(PPout2[[i]]$group)
+      pplist <- list(
+        t(data.frame(
+          MPPout[[i]][, 1],
+          row.names = rownames(MPPout[[i]])
+        )),
+        t(data.frame(
+          MPPout2[[i]][, 1],
+          row.names = rownames(MPPout2[[i]])
+        ))
+      )
+      outMPPg[[i]] <- t(do.call(smartbind_function, c(pplist, fill = 0)))
+      colnames(outMPPg[[i]]) <- fm.multi$sharing
+      ind <- which(outPPg[[i]][, 1] > minPP | outPPg[[i]][, 2] > minPP)
+      rnames <- rownames(outPPg[[i]])
+      if (length(ind) > 1) {
+        tmp <- outPPg[[i]][ind, ]
+      } else {
+        tmp <- t(as.matrix(outPPg[[i]][ind, ]))
+      }
+      rownames(tmp) <- rnames[ind]
+      outPPg[[i]] <- tmp
+      ind <- which(outMPPg[[i]][, 1] > minPP | outMPPg[[i]][, 2] > minPP)
+      rnames <- rownames(outMPPg[[i]])
+      if (length(ind) > 1) {
+        tmp <- outMPPg[[i]][ind, ]
+      } else {
+        tmp <- t(as.matrix(outMPPg[[i]][ind, ]))
+      }
+      rownames(tmp) <- rnames[ind]
+      outMPPg[[i]] <- tmp
+    }
+
+    names(outMPPg) <- names(outMPP) <- names(outPP) <- names(outPPg) <- tnames
+    list(MPP = outMPP, MPPg = outMPPg, PP = outPP, PPg = outPPg)
+  }
+
+  attr(fixed, "mvpvb_ppsummarise_single_model_patch") <- TRUE
+
+  replace_binding <- function(ns, name, value) {
+    was_locked <- bindingIsLocked(name, ns)
+    if (was_locked) unlockBinding(name, ns)
+    assign(name, value, envir = ns)
+    if (was_locked) lockBinding(name, ns)
+  }
+
+  ## FLASHFMwithJAMd() resolves the imported MGflashfm binding, while direct
+  ## flashfm calls resolve the defining flashfm binding.  Keep both identical.
+  replace_binding(flash_ns, "PPsummarise", fixed)
+  replace_binding(mg_binding_env, "PPsummarise", fixed)
+
+  patched_mg <- get("PPsummarise", envir = mg_binding_env, inherits = FALSE)
+  patched_flash <- get("PPsummarise", envir = flash_ns, inherits = FALSE)
+  if (
+    !isTRUE(attr(patched_mg, "mvpvb_ppsummarise_single_model_patch")) ||
+    !identical(patched_mg, patched_flash)
+  ) {
+    stop("Failed to install the flashfm one-model PPsummarise patch.")
+  }
+
+  message(
+    "MGflashfm PPsummarise patch applied: one-model posterior names preserved."
+  )
+  invisible(TRUE)
+}
+
+
+## ------------------------------------------------------------
+## Resolve SNP IDs returned by MGflashfm without fuzzy matching.
+##
+## Only harmless textual variants that map unambiguously to one supplied
+## SNP ID are accepted. A genuinely foreign ID still stops with the
+## offending value in the error message.
+## ------------------------------------------------------------
+resolve_mgflashfm_snp_ids <- function(ids, inputs, context) {
+
+  known_ids <- as.character(inputs$snp_map$mgflashfm_rsID)
+  raw_ids <- as.character(ids)
+
+  if (
+    length(raw_ids) == 0L ||
+    length(known_ids) == 0L ||
+    anyDuplicated(known_ids)
+  ) {
+    stop("Invalid SNP-ID map while processing ", context, ".")
+  }
+
+  clean_ids <- trimws(raw_ids)
+  wrapped <- grepl("^([\"'`])(.*)\\1$", clean_ids, perl = TRUE)
+  clean_ids[wrapped] <- sub(
+    "^([\"'`])(.*)\\1$",
+    "\\2",
+    clean_ids[wrapped],
+    perl = TRUE
+  )
+
+  snp_index <- match(clean_ids, known_ids)
+
+  unresolved <- which(is.na(snp_index))
+  if (length(unresolved) > 0L) {
+    lower_known <- tolower(known_ids)
+    if (anyDuplicated(lower_known)) {
+      stop("Case-insensitive SNP IDs are not unique in the input map.")
+    }
+    snp_index[unresolved] <- match(
+      tolower(clean_ids[unresolved]),
+      lower_known
+    )
+  }
+
+  ## Accept an anchored SNP-number form, optionally followed by the suffix
+  ## added by make.unique(). Do not extract SNP substrings from model labels.
+  unresolved <- which(is.na(snp_index))
+  if (length(unresolved) > 0L) {
+    candidate <- clean_ids[unresolved]
+    valid_shape <- grepl(
+      "(?i)^snp0*[0-9]+(?:\\.[0-9]+)?$",
+      candidate,
+      perl = TRUE
+    )
+    known_number <- suppressWarnings(as.integer(sub(
+      "(?i)^snp0*",
+      "",
+      known_ids,
+      perl = TRUE
+    )))
+
+    if (anyNA(known_number) || anyDuplicated(known_number)) {
+      stop("Numeric SNP IDs are not unique in the input map.")
+    }
+
+    if (any(valid_shape)) {
+      candidate_base <- sub(
+        "\\.[0-9]+$",
+        "",
+        candidate[valid_shape]
+      )
+      candidate_number <- suppressWarnings(as.integer(sub(
+        "(?i)^snp0*",
+        "",
+        candidate_base,
+        perl = TRUE
+      )))
+      snp_index[unresolved[valid_shape]] <- match(
+        candidate_number,
+        known_number
+      )
+    }
+  }
+
+  if (anyNA(snp_index)) {
+    bad <- unique(raw_ids[is.na(snp_index)])
+    bad_shown <- paste(utils::head(dQuote(bad), 10L), collapse = ", ")
+    if (length(bad) > 10L) bad_shown <- paste0(bad_shown, ", ...")
+    stop(
+      "MGflashfm returned unknown SNP ID(s) while processing ",
+      context,
+      ": ",
+      bad_shown,
+      "."
+    )
+  }
+
+  as.integer(snp_index)
+}
+
+
+## ------------------------------------------------------------
+## Final MGflashfm post-processing.
+##
+## This reproduces the output layout of MGFLASHFMwithJAM but uses
+## a K x q sample-size matrix. The upstream package constructs
+## data.frame(Nall), which is q x K and fails when q > K.
+## ------------------------------------------------------------
+postprocess_mgflashfm_core <- function(
+    csta,
+    flashfm.out,
+    inputs
+) {
+
+  K <- length(inputs$gwas.list)
+  q <- length(inputs$trait_names)
+
+  if (!is.list(csta) || !is.list(csta$summary) || !is.list(csta$details)) {
+    stop("Invalid MGflashfm core output.")
+  }
+  if (length(csta$summary) != q || length(csta$details) != q) {
+    stop("MGflashfm core output does not contain q trait results.")
+  }
+
+  maf_by_trait <- vector("list", q)
+  names(maf_by_trait) <- inputs$trait_names
+
+  for (r in seq_len(q)) {
+
+    cs <- csta$summary[[r]]
+
+    if (is.data.frame(cs) && nrow(cs) > 0L) {
+
+      tsnps <- rownames(cs)
+      if (is.null(tsnps) || length(tsnps) != nrow(cs)) {
+        stop("MGflashfm credible-set SNP names are invalid for Trait", r, ".")
+      }
+
+      snp_index <- resolve_mgflashfm_snp_ids(
+        tsnps,
+        inputs,
+        paste0("credible-set summary for Trait", r)
+      )
+      canonical_ids <- inputs$snp_map$mgflashfm_rsID[snp_index]
+
+      mafdf <- matrix(
+        NA_real_,
+        nrow = nrow(cs),
+        ncol = K,
+        dimnames = list(tsnps, inputs$group_names)
+      )
+
+      for (k in seq_len(K)) {
+        gwas_r <- inputs$gwas.list[[k]][[r]]
+        idx <- match(canonical_ids, gwas_r$rsID)
+        if (anyNA(idx)) {
+          stop(
+            "Resolved SNP ID is absent from Group", k,
+            " GWAS input for Trait", r, "."
+          )
+        }
+        eaf <- as.numeric(gwas_r$EAF[idx])
+        mafdf[, k] <- ifelse(
+          is.na(eaf),
+          NA_real_,
+          ifelse(eaf < 0.5, eaf, 1 - eaf)
+        )
+      }
+
+      maf_by_trait[[r]] <- mafdf
+
+    } else {
+      ## Single-bracket assignment preserves the trait slot when cs is NULL.
+      maf_by_trait[r] <- list(NULL)
+    }
+  }
+
+  ## Correct orientation: populations x traits = K x q.
+  Nmat <- do.call(
+    rbind,
+    lapply(inputs$Nall, as.numeric)
+  )
+  rownames(Nmat) <- inputs$group_names
+  colnames(Nmat) <- inputs$trait_names
+
+  if (!identical(dim(Nmat), c(K, q))) {
+    stop(
+      "Internal Nall dimension error: expected ", K, "x", q,
+      ", observed ", paste(dim(Nmat), collapse = "x"), "."
+    )
+  }
+
+  cstaS <- vector("list", q)
+  names(cstaS) <- inputs$trait_names
+
+  for (r in seq_len(q)) {
+
+    cs <- csta$summary[[r]]
+
+    if (is.data.frame(cs) && nrow(cs) > 0L) {
+
+      ## Keep MAF separate from cs. If cs already contains a Group* column,
+      ## selecting names from data.frame(cs, mafdf) can raise
+      ## "undefined columns selected" or select the wrong duplicate column.
+      maf_mat <- as.matrix(maf_by_trait[[r]])
+
+      if (!identical(dim(maf_mat), c(nrow(cs), K))) {
+        stop("Internal MAF dimension error for Trait", r, ".")
+      }
+
+      Nw <- as.numeric(Nmat[, r])
+      if (any(!is.finite(Nw)) || any(Nw <= 0)) {
+        stop("Invalid sample size in Nall for Trait", r, ".")
+      }
+
+      pmaf <- apply(
+        maf_mat,
+        1L,
+        function(x) {
+          keep <- is.finite(x) & is.finite(Nw)
+          if (!any(keep)) return(NA_real_)
+          weighted.mean(x[keep], w = Nw[keep])
+        }
+      )
+
+      Aprop <- apply(
+        maf_mat,
+        1L,
+        function(x) mean(is.finite(x))
+      )
+
+      Aanc <- apply(
+        maf_mat,
+        1L,
+        function(x) {
+          paste(inputs$group_names[is.finite(x)], collapse = ",")
+        }
+      )
+
+      cstaS[[r]] <- data.frame(
+        cs,
+        maf_pooled = pmaf,
+        prop_groups = Aprop,
+        groups = Aanc,
+        check.names = FALSE
+      )
+
+    } else {
+      ## Do not use [[r]] <- NULL: that deletes the list element and shifts
+      ## every later trait index.
+      cstaS[r] <- list(cs)
+    }
+  }
+
+  list(
+    CSsummary = cstaS,
+    CSdetail = csta,
+    flashfm.out = flashfm.out
+  )
+}
+
+
+## ------------------------------------------------------------
+## Checkpointed implementation of the expensive official workflow.
+##
+## The statistical core is unchanged:
+##   FLASHFMwithJAMd is run once per population;
+##   MGflashfm combines the population-specific posterior model output.
+##
+## Checkpoints are stored inside result_dir, not tempdir().
+## ------------------------------------------------------------
+run_mgflashfm_core_checkpointed <- function(
+    inputs,
+    result_dir,
+    jam.nM.iter = 1,
+    jam.seed = 20260929L,
+    cpp = 0.99,
+    cred = 0.99,
+    TOdds = 1,
+    maxcv = 1,
+    maxcv_stop = 20,
+    r2 = 0.80,
+    NCORES = 1,
+    extra.java.arguments = NULL,
+    resume = TRUE,
+    scenario_name = NULL
+) {
+
+  ## Must run inside every worker process before FLASHFMwithJAMd().
+  patch_mgflashfm_null_model()
+  patch_mgflashfm_duplicate_canonical_models()
+  patch_mgflashfm_six_trait_runtime_guard()
+  patch_mgflashfm_best_models_cpp()
+  patch_mgflashfm_mpp_single_model()
+  patch_mgflashfm_ppsummarise_single_model()
+
+  K <- length(inputs$gwas.list)
+  q <- length(inputs$trait_names)
+  m <- nrow(inputs$snp_map)
+
+  iter_tag <- format(jam.nM.iter, scientific = FALSE, trim = TRUE)
+  iter_tag <- gsub("\\.", "p", iter_tag)
+  seed_tag <- as.character(as.integer(jam.seed))
+  run_tag <- paste0("jam_", iter_tag, "M_seed_", seed_tag)
+
+  checkpoint_dir <- file.path(result_dir, "checkpoints", run_tag)
+  jam_dir <- file.path(result_dir, "tmpJAM", run_tag)
+  dir.create(checkpoint_dir, recursive = TRUE, showWarnings = FALSE)
+  dir.create(jam_dir, recursive = TRUE, showWarnings = FALSE)
+
+  settings <- list(
+    scenario_name = if (is.null(scenario_name)) NA_character_ else as.character(scenario_name),
+    K = K,
+    m = m,
+    q = q,
+    jam.nM.iter = as.numeric(jam.nM.iter),
+    jam.seed = as.integer(jam.seed),
+    cpp = cpp,
+    cred = cred,
+    TOdds = TOdds,
+    maxcv = maxcv,
+    maxcv_stop = maxcv_stop,
+    r2 = r2,
+    NCORES = NCORES
+  )
+
+  same_settings <- function(x) {
+    is.list(x) && isTRUE(all.equal(x, settings, check.attributes = FALSE))
+  }
+
+  set.seed(as.integer(jam.seed))
+
+  flashfm.out <- vector("list", K)
+  names(flashfm.out) <- inputs$group_names
+
+  ssnps <- vector("list", K)
+  allflashfmPP <- vector("list", K)
+  names(allflashfmPP) <- inputs$group_names
+
+  ybar <- setNames(rep(0, q), inputs$trait_names)
+
+  for (k in seq_len(K)) {
+
+    group_checkpoint <- file.path(
+      checkpoint_dir,
+      sprintf("flashfm_group_%d.rds", k)
+    )
+
+    loaded <- FALSE
+
+    if (isTRUE(resume) && file.exists(group_checkpoint)) {
+      chk <- tryCatch(readRDS(group_checkpoint), error = function(e) NULL)
+
+      if (
+        is.list(chk) &&
+        same_settings(chk$settings) &&
+        identical(as.integer(chk$group_index), as.integer(k)) &&
+        !is.null(chk$flashfm.out)
+      ) {
+        flashfm.out[[k]] <- chk$flashfm.out
+        if (!is.null(chk$rng_state_after)) {
+          assign(".Random.seed", chk$rng_state_after, envir = .GlobalEnv)
+        }
+        loaded <- TRUE
+        cat(
+          "MGflashfm: loaded population ", k,
+          " checkpoint (", run_tag, ").\n",
+          sep = ""
+        )
+      }
+    }
+
+    if (!loaded) {
+      cat(
+        "MGflashfm: running population ", k, " of ", K,
+        " | q=", q,
+        " | jam.nM.iter=", jam.nM.iter, "M\n",
+        sep = ""
+      )
+
+      flashfm.out[[k]] <- MGflashfm::FLASHFMwithJAMd(
+        gwas.list = inputs$gwas.list[[k]],
+        corX = inputs$LD.list[[k]],
+        ybar = ybar,
+        N = inputs$Nall[[k]],
+        save.path = jam_dir,
+        TOdds = TOdds,
+        covY = inputs$covY.list[[k]],
+        cpp = cpp,
+        NCORES = NCORES,
+        maxcv = maxcv,
+        maxcv_stop = maxcv_stop,
+        jam.nM.iter = jam.nM.iter,
+        r2 = r2,
+        extra.java.arguments = extra.java.arguments
+      )
+
+      saveRDS(
+        list(
+          settings = settings,
+          group_index = as.integer(k),
+          group_name = inputs$group_names[[k]],
+          flashfm.out = flashfm.out[[k]],
+          rng_state_after = if (exists(".Random.seed", envir = .GlobalEnv)) {
+            get(".Random.seed", envir = .GlobalEnv)
+          } else {
+            NULL
+          }
+        ),
+        group_checkpoint
+      )
+
+      cat(
+        "MGflashfm: saved population ", k,
+        " checkpoint.\n",
+        sep = ""
+      )
+    }
+
+    ssnps[[k]] <- Reduce(
+      intersect,
+      lapply(inputs$gwas.list[[k]], function(x) x$rsID)
+    )
+
+    allflashfmPP[[k]] <- flashfm.out[[k]]$mpp.pp
+
+    if (is.null(allflashfmPP[[k]])) {
+      stop("Population ", k, " flashfm output does not contain mpp.pp.")
+    }
+  }
+
+  all_groups_checkpoint <- file.path(
+    checkpoint_dir,
+    "flashfm_all_groups.rds"
+  )
+
+  saveRDS(
+    list(
+      settings = settings,
+      flashfm.out = flashfm.out,
+      allflashfmPP = allflashfmPP,
+      ssnps = ssnps
+    ),
+    all_groups_checkpoint
+  )
+
+  allsnps <- Reduce(union, ssnps)
+
+  csta_checkpoint <- file.path(
+    checkpoint_dir,
+    "MGflashfm_core_csta.rds"
+  )
+
+  csta <- NULL
+
+  if (isTRUE(resume) && file.exists(csta_checkpoint)) {
+    chk <- tryCatch(readRDS(csta_checkpoint), error = function(e) NULL)
+    if (is.list(chk) && same_settings(chk$settings) && !is.null(chk$csta)) {
+      csta <- chk$csta
+      cat("MGflashfm: loaded cross-population core checkpoint.\n")
+    }
+  }
+
+  if (is.null(csta)) {
+    cat("MGflashfm: combining population-specific flashfm results.\n")
+
+    csta <- MGflashfm::MGflashfm(
+      allflashfmPP = allflashfmPP,
+      Nall = inputs$Nall,
+      snps = allsnps,
+      cred = cred,
+      multi = TRUE,
+      cpp = cpp,
+      NCORES = NCORES
+    )
+
+    saveRDS(
+      list(
+        settings = settings,
+        csta = csta
+      ),
+      csta_checkpoint
+    )
+
+    cat("MGflashfm: saved cross-population core checkpoint.\n")
+  }
+
+  mgmtCS <- postprocess_mgflashfm_core(
+    csta = csta,
+    flashfm.out = flashfm.out,
+    inputs = inputs
+  )
+
+  list(
+    mgmtCS = mgmtCS,
+    checkpoint_dir = checkpoint_dir,
+    jam_dir = jam_dir,
+    settings = settings
+  )
+}
+
+
+credible_set_pairs <- function(mgmtCS, inputs, common_data) {
+  rows <- list()
+  out_i <- 1L
+
+  for (r in seq_along(inputs$trait_names)) {
+    trait <- inputs$trait_names[[r]]
+    cs <- mgmtCS$CSsummary[[trait]]
+    if (is.null(cs)) cs <- mgmtCS$CSsummary[[r]]
+    if (!is.data.frame(cs) || nrow(cs) == 0L) next
+
+    ids <- rownames(cs)
+    snp_index <- resolve_mgflashfm_snp_ids(
+      ids,
+      inputs,
+      paste0("credible-set pairs for ", trait)
+    )
+
+    one <- data.frame(
+      SNP = snp_index,
+      SNP_key = inputs$snp_map$SNP_key[snp_index],
+      trait_index = r,
+      trait = trait,
+      mgMPP = as.numeric(cs$mgMPP),
+      maf_pooled = as.numeric(cs$maf_pooled),
+      prop_groups = as.numeric(cs$prop_groups),
+      groups = as.character(cs$groups),
+      in_CS99 = TRUE,
+      is_true_in_population1 = inputs$truth_masks[[1L]][cbind(snp_index, r)],
+      stringsAsFactors = FALSE
+    )
+
+    ## Backward-compatible name retained for old downstream code.
+    one$is_true_shared_pair <- one$is_true_in_population1
+
+    for (k in seq_len(common_data$K)) {
+      one[[paste0("B_true_Group", k)]] <-
+        common_data$B_true_list[[k]][cbind(snp_index, r)]
+      one[[paste0("is_true_Group", k)]] <-
+        inputs$truth_masks[[k]][cbind(snp_index, r)]
+    }
+
+    rows[[out_i]] <- one
+    out_i <- out_i + 1L
+  }
+
+  if (length(rows) == 0L) {
+    out <- data.frame(
+      SNP = integer(),
+      SNP_key = character(),
+      trait_index = integer(),
+      trait = character(),
+      mgMPP = numeric(),
+      maf_pooled = numeric(),
+      prop_groups = numeric(),
+      groups = character(),
+      in_CS99 = logical(),
+      is_true_in_population1 = logical(),
+      is_true_shared_pair = logical(),
+      stringsAsFactors = FALSE
+    )
+    return(out)
+  }
+
+  do.call(rbind, rows)
+}
+
+
+extract_mgmpp_selection <- function(
+    mgmtCS,
+    inputs,
+    common_data,
+    threshold = 0.90
+) {
+
+  m <- as.integer(common_data$m)
+  q <- as.integer(common_data$q)
+
+  mgMPP <- matrix(
+    0,
+    nrow = m,
+    ncol = q,
+    dimnames = list(inputs$snp_map$mgflashfm_rsID, inputs$trait_names)
+  )
+
+  details <- mgmtCS$CSdetail$details
+  if (!is.list(details)) {
+    stop("MGflashfm output does not contain CSdetail$details.")
+  }
+  if (length(details) != q) {
+    stop("MGflashfm CSdetail$details does not contain q traits.")
+  }
+
+  for (r in seq_len(q)) {
+
+    trait <- inputs$trait_names[[r]]
+    detail <- details[[trait]]
+    if (is.null(detail)) detail <- details[[r]]
+
+    ## If the core method returns no mgMPP object for a trait, preserve
+    ## the original all-zero row/column contribution. Non-finite numeric
+    ## mgMPP values are still treated as an error below.
+    if (is.null(detail) || is.null(detail$mgMPP)) next
+
+    values <- as.numeric(detail$mgMPP)
+    ids <- names(detail$mgMPP)
+
+    if (is.null(ids) || length(ids) != length(values)) {
+      stop("MGflashfm mgMPP values have no valid SNP names for ", trait, ".")
+    }
+    ## Numerical boundary tolerance only. Values outside [0, 1] merely by
+    ## floating-point rounding are projected back to the probability range.
+    mgmpp_tol <- 100 * .Machine$double.eps
+
+    if (any(!is.finite(values))) {
+      stop("MGflashfm returned non-finite mgMPP values for ", trait, ".")
+    }
+
+    large_bad <- values < -mgmpp_tol | values > 1 + mgmpp_tol
+    if (any(large_bad)) {
+      stop(
+        "MGflashfm returned materially out-of-range mgMPP values for ",
+        trait,
+        ": range = [",
+        format(min(values), digits = 17),
+        ", ",
+        format(max(values), digits = 17),
+        "]."
+      )
+    }
+
+    values <- pmin(1, pmax(0, values))
+
+    ## MGflashfm can emit a zero-probability entry whose name is an actual
+    ## NA_character_ sentinel. It is not an SNP and cannot affect the
+    ## mgMPP > threshold selection. Drop only zero-valued missing-name
+    ## sentinels; a missing name carrying nonzero mass remains an error.
+    missing_id <- is.na(ids) | !nzchar(trimws(ids))
+    if (any(missing_id & values > mgmpp_tol)) {
+      stop(
+        "MGflashfm returned a missing SNP ID with nonzero mgMPP for ",
+        trait,
+        "."
+      )
+    }
+    if (any(missing_id)) {
+      values <- values[!missing_id]
+      ids <- ids[!missing_id]
+    }
+    if (length(values) == 0L) next
+
+    snp_index <- resolve_mgflashfm_snp_ids(
+      ids,
+      inputs,
+      paste0("mgMPP for ", trait)
+    )
+
+    if (anyDuplicated(snp_index)) {
+      values <- vapply(
+        split(values, snp_index),
+        max,
+        numeric(1),
+        na.rm = TRUE
+      )
+      snp_index <- as.integer(names(values))
+    }
+
+    mgMPP[snp_index, r] <- values
+  }
+
+  Zhat <- matrix(
+    as.integer(mgMPP > threshold),
+    nrow = m,
+    ncol = q,
+    dimnames = dimnames(mgMPP)
+  )
+
+  all_grid <- expand.grid(
+    SNP = seq_len(m),
+    trait_index = seq_len(q),
+    KEEP.OUT.ATTRS = FALSE,
+    stringsAsFactors = FALSE
+  )
+
+  all_evidence <- data.frame(
+    SNP = all_grid$SNP,
+    SNP_key = inputs$snp_map$SNP_key[all_grid$SNP],
+    trait_index = all_grid$trait_index,
+    trait = inputs$trait_names[all_grid$trait_index],
+    mgMPP = mgMPP[cbind(all_grid$SNP, all_grid$trait_index)],
+    selected = Zhat[cbind(all_grid$SNP, all_grid$trait_index)] == 1L,
+    stringsAsFactors = FALSE
+  )
+
+  selected_pairs <- all_evidence[
+    all_evidence$selected,
+    ,
+    drop = FALSE
+  ]
+
+  list(
+    mgMPP = mgMPP,
+    Zhat = Zhat,
+    all_evidence = all_evidence,
+    selected_pairs = selected_pairs,
+    threshold = threshold
+  )
+}
+
+
+evaluate_pair_selection <- function(Zhat, truth, population = NA_integer_) {
+
+  pred <- as.matrix(Zhat != 0)
+  truth <- as.matrix(truth != 0)
+
+  if (!identical(dim(pred), dim(truth))) {
+    stop("Prediction and truth matrices have different dimensions.")
+  }
+
+  TP <- sum(pred & truth)
+  FP <- sum(pred & !truth)
+  FN <- sum(!pred & truth)
+  TN <- sum(!pred & !truth)
+
+  precision <- if (TP + FP == 0L) 0 else TP / (TP + FP)
+  recall <- if (TP + FN == 0L) 0 else TP / (TP + FN)
+  specificity <- if (TN + FP == 0L) 0 else TN / (TN + FP)
+  F1 <- if (precision + recall == 0) {
+    0
+  } else {
+    2 * precision * recall / (precision + recall)
+  }
+
+  data.frame(
+    method = "MGflashfm",
+    population = as.integer(population),
+    selection_rule = "mgMPP > 0.90",
+    TP = TP,
+    FP = FP,
+    FN = FN,
+    TN = TN,
+    precision = precision,
+    recall = recall,
+    specificity = specificity,
+    F1 = F1,
+    stringsAsFactors = FALSE
+  )
+}
+
+
+## Backward-compatible helper retained for old callers.
+evaluate_shared_pairs <- function(Zhat, truth) {
+  out <- evaluate_pair_selection(Zhat, truth, population = 1L)
+  out$population <- NULL
+  out
+}
+
+
+build_truth_pairs_by_population <- function(
+    common_data,
+    inputs,
+    selected_pairs
+) {
+
+  K <- as.integer(common_data$K)
+  rows <- vector("list", K)
+
+  predicted_key <- paste(
+    selected_pairs$SNP,
+    selected_pairs$trait_index,
+    sep = ":"
+  )
+
+  for (k in seq_len(K)) {
+
+    truth_idx <- which(
+      inputs$truth_masks[[k]],
+      arr.ind = TRUE
+    )
+
+    truth_pairs <- data.frame(
+      population = k,
+      SNP = truth_idx[, 1L],
+      SNP_key = common_data$snp_key_vec[truth_idx[, 1L]],
+      trait_index = truth_idx[, 2L],
+      trait = inputs$trait_names[truth_idx[, 2L]],
+      B_true = common_data$B_true_list[[k]][truth_idx],
+      stringsAsFactors = FALSE
+    )
+
+    truth_key <- paste(
+      truth_pairs$SNP,
+      truth_pairs$trait_index,
+      sep = ":"
+    )
+
+    truth_pairs$detected_mgMPP90 <- truth_key %in% predicted_key
+    rows[[k]] <- truth_pairs
+  }
+
+  do.call(rbind, rows)
+}
+
+
+run_mgflashfm <- function(
+    common_file,
+    result_dir,
+    jam.nM.iter = getOption("MGflashfm.jam.nM.iter", 1),
+    jam.seed = getOption("MGflashfm.jam.seed", 20260929L),
+    resume = TRUE
+) {
+
+  if (!requireNamespace("MGflashfm", quietly = TRUE)) {
+    stop("Package MGflashfm is not installed.")
+  }
+  if (!requireNamespace("R2BGLiMS", quietly = TRUE)) {
+    stop("Package R2BGLiMS is not installed; JAM also requires Java.")
+  }
+
+  if (
+    length(jam.nM.iter) != 1L ||
+    !is.numeric(jam.nM.iter) ||
+    !is.finite(jam.nM.iter) ||
+    jam.nM.iter <= 0
+  ) {
+    stop("jam.nM.iter must be one positive finite number.")
+  }
+
+  if (
+    length(jam.seed) != 1L ||
+    !is.numeric(jam.seed) ||
+    !is.finite(jam.seed)
+  ) {
+    stop("jam.seed must be one finite numeric value.")
+  }
+
+  suppressPackageStartupMessages(library(R2BGLiMS))
+  suppressPackageStartupMessages(library(MGflashfm))
+
+  common_file <- normalizePath(common_file, mustWork = TRUE)
+  dir.create(result_dir, recursive = TRUE, showWarnings = FALSE)
+  result_dir <- normalizePath(result_dir, mustWork = TRUE)
+
+  common_data <- readRDS(common_file)
+  inputs <- make_mgflashfm_inputs(common_data)
+
+  K <- as.integer(common_data$K)
+  m <- as.integer(common_data$m)
+  q <- as.integer(common_data$q)
+
+  cat("\n============================================================\n")
+  cat("Running MGflashfm\n")
+  cat("============================================================\n")
+  cat("Scenario:", common_data$scenario_name, "\n")
+  cat("K =", K, "| m =", m, "| q =", q, "\n")
+  cat(
+    "jam.nM.iter =", jam.nM.iter,
+    "million =",
+    format(jam.nM.iter * 1e6, scientific = FALSE),
+    "iterations per JAM run\n"
+  )
+  cat("JAM R seed =", as.integer(jam.seed), "\n")
+  cat("resume =", isTRUE(resume), "\n")
+
+  write.csv(
+    inputs$snp_map,
+    file.path(result_dir, "snp_id_map.csv"),
+    row.names = FALSE
+  )
+
+  core_time <- system.time({
+    core <- run_mgflashfm_core_checkpointed(
+      inputs = inputs,
+      result_dir = result_dir,
+      jam.nM.iter = jam.nM.iter,
+      jam.seed = as.integer(jam.seed),
+      cpp = 0.99,
+      cred = 0.99,
+      TOdds = 1,
+      maxcv = 1,
+      maxcv_stop = 20,
+      r2 = 0.80,
+      NCORES = 1,
+      extra.java.arguments = NULL,
+      resume = resume,
+      scenario_name = common_data$scenario_name
+    )
+  })
+
+  mgmtCS <- core$mgmtCS
+
+  ## Save the complete official-layout result before any later diagnostic
+  ## or CSV code. This prevents losing an expensive fit to post-processing.
+  saveRDS(
+    mgmtCS,
+    file.path(result_dir, "MGflashfm_official_result.rds")
+  )
+
+  selection <- extract_mgmpp_selection(
+    mgmtCS = mgmtCS,
+    inputs = inputs,
+    common_data = common_data,
+    threshold = 0.90
+  )
+
+  ## Save selection immediately as another recovery point.
+  saveRDS(
+    selection$mgMPP,
+    file.path(result_dir, "MGflashfm_mgMPP_matrix.rds")
+  )
+  saveRDS(
+    selection$Zhat,
+    file.path(result_dir, "MGflashfm_Zhat_mgMPP90.rds")
+  )
+
+  cs_pairs <- credible_set_pairs(
+    mgmtCS = mgmtCS,
+    inputs = inputs,
+    common_data = common_data
+  )
+
+  metrics_by_population <- do.call(
+    rbind,
+    lapply(
+      seq_len(K),
+      function(k) {
+        evaluate_pair_selection(
+          Zhat = selection$Zhat,
+          truth = inputs$truth_masks[[k]],
+          population = k
+        )
+      }
+    )
+  )
+
+  truth_pairs <- build_truth_pairs_by_population(
+    common_data = common_data,
+    inputs = inputs,
+    selected_pairs = selection$selected_pairs
+  )
+
+  ## Credible-set coverage by population. This remains diagnostic only;
+  ## the simulation selection rule is mgMPP > 0.90.
+  cs_key <- paste(cs_pairs$SNP, cs_pairs$trait_index, sep = ":")
+
+  cs_metrics_by_population <- do.call(
+    rbind,
+    lapply(
+      seq_len(K),
+      function(k) {
+        truth_k <- truth_pairs[truth_pairs$population == k, , drop = FALSE]
+        truth_key <- paste(truth_k$SNP, truth_k$trait_index, sep = ":")
+
+        data.frame(
+          method = "MGflashfm_CS99",
+          population = k,
+          purpose = "credible_set_coverage_resolution_only",
+          n_CS99_SNP_trait_pairs = nrow(cs_pairs),
+          n_true_pairs_covered = sum(truth_key %in% cs_key),
+          truth_pair_coverage = if (length(truth_key) == 0L) {
+            NA_real_
+          } else {
+            mean(truth_key %in% cs_key)
+          },
+          mean_CS99_size = if (nrow(cs_pairs) == 0L) {
+            0
+          } else {
+            mean(as.numeric(table(cs_pairs$trait_index)))
+          },
+          stringsAsFactors = FALSE
+        )
+      }
+    )
+  )
+
+  ## Nonessential human-readable outputs are written only after all RDS
+  ## recovery points above exist.
+  write.csv(
+    cs_pairs,
+    file.path(result_dir, "MGflashfm_CS99_SNP_trait_pairs.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    selection$mgMPP,
+    file.path(result_dir, "MGflashfm_mgMPP_matrix.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    selection$Zhat,
+    file.path(result_dir, "MGflashfm_Zhat_mgMPP90.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    selection$all_evidence,
+    file.path(result_dir, "MGflashfm_all_SNP_trait_mgMPP.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    selection$selected_pairs,
+    file.path(result_dir, "MGflashfm_mgMPP90_SNP_trait_pairs.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    truth_pairs,
+    file.path(result_dir, "truth_SNP_trait_pairs_by_population.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    metrics_by_population,
+    file.path(result_dir, "MGflashfm_pair_metrics.csv"),
+    row.names = FALSE
+  )
+  write.csv(
+    cs_metrics_by_population,
+    file.path(result_dir, "MGflashfm_CS99_coverage_resolution.csv"),
+    row.names = FALSE
+  )
+
+  runtime <- list(
+    core_elapsed_sec = unname(core_time["elapsed"]),
+    core_user_sec = unname(core_time["user.self"]),
+    core_system_sec = unname(core_time["sys.self"])
+  )
+
+  saveRDS(
+    list(
+      scenario_name = common_data$scenario_name,
+      K = K,
+      m = m,
+      q = q,
+      jam.nM.iter = as.numeric(jam.nM.iter),
+      jam.iterations = as.numeric(jam.nM.iter) * 1e6,
+      jam.seed = as.integer(jam.seed),
+      runtime = runtime,
+      checkpoint_dir = core$checkpoint_dir,
+      jam_dir = core$jam_dir,
+      metrics_by_population = metrics_by_population
+    ),
+    file.path(result_dir, "MGflashfm_run_metadata.rds")
+  )
+
+  cat("\nMGflashfm completed.\n")
+  cat("mgMPP > 0.90 SNP-trait pairs:", nrow(selection$selected_pairs), "\n")
+  cat("CS99 SNP-trait pairs:", nrow(cs_pairs), "\n")
+  cat("Core elapsed seconds:", runtime$core_elapsed_sec, "\n")
+  cat("Results:", result_dir, "\n")
+
+  invisible(
+    list(
+      result = mgmtCS,
+      mgMPP = selection$mgMPP,
+      Zhat = selection$Zhat,
+      selected_pairs = selection$selected_pairs,
+      CS99_pairs = cs_pairs,
+      truth = truth_pairs,
+      metrics = metrics_by_population,
+      metrics_by_population = metrics_by_population,
+      CS99_metrics = cs_metrics_by_population,
+      jam.nM.iter = as.numeric(jam.nM.iter),
+      jam.iterations = as.numeric(jam.nM.iter) * 1e6,
+      runtime = runtime,
+      checkpoint_dir = core$checkpoint_dir,
+      jam_dir = core$jam_dir
+    )
+  )
+}
